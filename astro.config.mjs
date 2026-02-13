@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://forthepeople.org',
+  site: 'https://source-check.org',
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'pt'],
