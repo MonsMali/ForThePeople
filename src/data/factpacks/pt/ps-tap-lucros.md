@@ -18,14 +18,13 @@ draft: false
 ---
 
 ## O Que Foi Dito
+
 Pedro Nuno Santos tem usado repetidamente os resultados positivos da TAP em 2023 como bandeira política, argumentando que a sua gestão salvou a companhia e provou que o Estado sabe gerir empresas.
 
 ## O Que Os Números Mostram
+
 A afirmação é **tecnicamente verdadeira, mas financeiramente enganadora**.
 
-1.  **O Lucro Existe:** A TAP apresentou de facto lucros recorde em 2023. Isso é um facto contabilístico.
-2.  **O Custo Oculto:** Para chegar a esse lucro, o Estado injetou **3,2 mil milhões de euros**.
-    *   Se uma empresa recebe 3 mil milhões a fundo perdido e depois lucra 200 milhões, o "sucesso" é relativo.
-    *   O Tribunal de Contas já alertou que a recuperação integral desse investimento é "inverosímil".
+A TAP apresentou de facto lucros recorde em 2023. Isso é um facto contabilístico. Mas para chegar a esse lucro, o Estado injetou **3,2 mil milhões de euros**. Se uma empresa recebe 3 mil milhões a fundo perdido e depois lucra 200 milhões, o "sucesso" é relativo. O Tribunal de Contas já alertou que a recuperação integral desse investimento é "inverosímil".
 
-**Conclusão:** Apresentar o lucro sem mencionar a injeção de capital é como dizer que se poupou dinheiro no almoço depois de se ter gasto uma fortuna a comprar o restaurante.
+Apresentar o lucro sem mencionar a injeção de capital é como dizer que se poupou dinheiro no almoço depois de se ter gasto uma fortuna a comprar o restaurante.

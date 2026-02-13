@@ -19,11 +19,9 @@ draft: false
 
 ## What They Are Saying
 
-Euroskeptic politicians and social media accounts regularly claim that 60% or more of the EU budget goes to "Brussels bureaucrats" and administrative waste. The number varies — sometimes it's 50%, sometimes 70% — but the message is consistent: your money is being wasted on bureaucracy.
+Euroskeptic politicians and social media accounts regularly claim that 60% or more of the EU budget goes to "Brussels bureaucrats" and administrative waste. The number varies: sometimes it's 50%, sometimes 70%, but the message is consistent. Your money is being wasted on bureaucracy.
 
-**Concern about how tax money is spent is completely valid.** Every citizen has the right to know where public funds go. Governments should be scrutinized.
-
-But the scrutiny should start with the actual numbers.
+The scrutiny should start with the actual numbers.
 
 ## What The Documents Show
 
@@ -42,20 +40,14 @@ The EU's Multiannual Financial Framework 2021-2027 allocates the budget as follo
 
 ### 6%, Not 60%
 
-Administration — which includes all EU institutions (Commission, Parliament, Council, Court of Justice, Court of Auditors) — accounts for approximately **6% of the total budget.** This includes salaries, buildings, translation services, and IT infrastructure for an organization serving 450 million citizens across 24 official languages.
+Administration (which includes all EU institutions: Commission, Parliament, Council, Court of Justice, Court of Auditors) accounts for approximately 6% of the total budget. This includes salaries, buildings, translation services, and IT infrastructure for an organization serving 450 million citizens across 24 official languages.
 
 ### Where Does the 60% Myth Come From?
 
-The claim likely originates from deliberate misrepresentation:
+The claim likely originates from deliberate misrepresentation. Conflating "EU spending in Brussels" with "bureaucracy" (many programmes are managed from Brussels but the money goes to member states). Cherry-picking specific budget lines without context. Simple repetition. The number has been shared so many times it feels true.
 
-1. Conflating "EU spending in Brussels" with "bureaucracy" (many programmes are managed from Brussels but the money goes to member states)
-2. Cherry-picking specific budget lines without context
-3. Simple repetition — the number has been shared so many times it feels true
+This is a manipulation tactic that works regardless of your position on the EU. Whether you support or oppose European integration, you deserve accurate numbers to base your opinion on. Inflated figures manipulate your conclusion.
 
-**This is a manipulation tactic that works regardless of your position on the EU.** Whether you support or oppose European integration, you deserve accurate numbers to base your opinion on. Inflated figures manipulate your conclusion.
+The EU spends approximately 6% of its budget on administration. The claim of 60% is off by a factor of ten. The largest budget items go to regional development and agriculture, money that flows directly to member states and their citizens.
 
-### The Bottom Line
-
-The EU spends approximately 6% of its budget on administration. The claim of 60% is off by a factor of ten. The largest budget items go to regional development and agriculture — money that flows directly to member states and their citizens.
-
-**The budget documents are public. Read them. Form your opinion based on the real numbers, not the invented ones.**
+The budget documents are public. Read them. Form your opinion based on the real numbers, not the invented ones.

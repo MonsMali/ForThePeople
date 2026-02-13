@@ -24,17 +24,15 @@ draft: false
 
 Social media claims that Pam Bondi "lied under oath" when she stated during her Senate confirmation hearing that there was "no evidence" in the Epstein case. The claim went viral with millions of views across platforms.
 
-**We understand why this angers people.** When powerful people seem to escape accountability for serious crimes, and the officials who should pursue justice appear to look the other way, the outrage is legitimate.
-
-But outrage deserves accuracy. Let's look at exactly what was said, and what the documents show.
+Outrage deserves accuracy. Here's exactly what was said, and what the documents show.
 
 ## What The Documents Show
 
 ### The Actual Words
 
-During her Senate Judiciary Committee confirmation hearing, Bondi was asked about the Epstein case. Her response referenced the standard of **prosecutable evidence** — not the colloquial meaning of "evidence."
+During her Senate Judiciary Committee confirmation hearing, Bondi was asked about the Epstein case. Her response referenced the standard of **prosecutable evidence**, not the colloquial meaning of "evidence."
 
-This is a critical distinction:
+This distinction matters:
 
 | Term | What it means |
 |------|--------------|
@@ -43,28 +41,18 @@ This is a critical distinction:
 
 ### The DOJ Standard
 
-Section 9-27.220 of the DOJ Justice Manual states that federal prosecutors should only bring charges when they believe the **admissible evidence** is sufficient to obtain and sustain a conviction. This is a deliberately high bar.
+Section 9-27.220 of the DOJ Justice Manual states that federal prosecutors should only bring charges when they believe the admissible evidence is sufficient to obtain and sustain a conviction. This is a deliberately high bar.
 
-This means evidence can exist — even compelling evidence — while not meeting the "prosecutable" standard. These are two very different statements:
-
-1. "Nothing happened"
-2. "We don't have enough admissible evidence to guarantee a conviction"
+Evidence can exist, even compelling evidence, while not meeting the "prosecutable" standard. These are two very different statements. "Nothing happened" versus "We don't have enough admissible evidence to guarantee a conviction."
 
 ### Why This Matters
 
-This rhetorical technique is called a **"non-denial denial."** It works by:
+This rhetorical technique is called a "non-denial denial." Using a technically accurate legal phrase that the general public interprets as a much stronger statement creates the impression of full exoneration without actually saying nothing happened.
 
-1. Using a technically accurate legal phrase
-2. That the general public interprets as a much stronger statement
-3. Creating the impression of full exoneration
-4. Without actually saying nothing happened
+This is a manipulation tactic regardless of who uses it. Politicians across the spectrum rely on the gap between legal language and public understanding. Recognizing the pattern is more important than picking a side.
 
-**This is a manipulation tactic regardless of who uses it.** Politicians across the spectrum rely on the gap between legal language and public understanding. Recognizing the pattern is more important than picking a side.
+Bondi's statement was technically defensible under legal standards but practically misleading to a general audience. She used professional jargon that carries a specific meaning in legal contexts but sounds like "nothing to see here" to everyone else.
 
-### The Bottom Line
+That's not "lying under oath" in the legal sense. It's also not being straight with the public.
 
-Bondi's statement was **technically defensible under legal standards** but **practically misleading to a general audience.** She used professional jargon that carries a specific meaning in legal contexts but sounds like "nothing to see here" to everyone else.
-
-That's not "lying under oath" in the legal sense. But it's also not being straight with the public.
-
-**Read the transcript. Read the DOJ guidelines. The gap between "no evidence" and "no prosecutable evidence" is where accountability goes to die.**
+Read the transcript. Read the DOJ guidelines. The gap between "no evidence" and "no prosecutable evidence" is where accountability goes to die.

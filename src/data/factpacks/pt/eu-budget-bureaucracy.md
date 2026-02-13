@@ -19,11 +19,9 @@ draft: false
 
 ## O Que Estão a Dizer
 
-Políticos eurocéticos e contas nas redes sociais afirmam regularmente que 60% ou mais do orçamento da UE vai para "burocratas de Bruxelas" e desperdício administrativo. O número varia — por vezes é 50%, por vezes 70% — mas a mensagem é consistente: o seu dinheiro está a ser desperdiçado em burocracia.
+Políticos eurocéticos e contas nas redes sociais afirmam regularmente que 60% ou mais do orçamento da UE vai para "burocratas de Bruxelas" e desperdício administrativo. O número varia (por vezes é 50%, por vezes 70%), mas a mensagem é consistente: o seu dinheiro está a ser desperdiçado em burocracia.
 
-**A preocupação sobre como o dinheiro dos impostos é gasto é completamente válida.** Cada cidadão tem o direito de saber para onde vão os fundos públicos. Os governos devem ser escrutinados.
-
-Mas o escrutínio deve começar com os números reais.
+Cada cidadão tem o direito de saber para onde vão os fundos públicos. Os governos devem ser escrutinados. Mas o escrutínio deve começar com os números reais.
 
 ## O Que Os Documentos Mostram
 
@@ -42,16 +40,14 @@ O Quadro Financeiro Plurianual da UE 2021-2027 distribui o orçamento da seguint
 
 ### 6%, Não 60%
 
-A administração — que inclui todas as instituições da UE (Comissão, Parlamento, Conselho, Tribunal de Justiça, Tribunal de Contas) — representa aproximadamente **6% do orçamento total.** Isto inclui salários, edifícios, serviços de tradução e infraestrutura informática para uma organização que serve 450 milhões de cidadãos em 24 línguas oficiais.
+A administração (que inclui todas as instituições da UE: Comissão, Parlamento, Conselho, Tribunal de Justiça, Tribunal de Contas) representa aproximadamente **6% do orçamento total.** Isto inclui salários, edifícios, serviços de tradução e infraestrutura informática para uma organização que serve 450 milhões de cidadãos em 24 línguas oficiais.
 
 ### O Que Isto Significa Para Portugal
 
-Portugal é um beneficiário líquido do orçamento da UE. Os fundos de coesão e desenvolvimento regional — que representam 35% do orçamento europeu — financiam diretamente projetos em Portugal: autoestradas, metro, investigação universitária, modernização agrícola.
+Portugal é um beneficiário líquido do orçamento da UE. Os fundos de coesão e desenvolvimento regional (que representam 35% do orçamento europeu) financiam diretamente projetos em Portugal: autoestradas, metro, investigação universitária, modernização agrícola.
 
 Quando alguém diz que "a UE desperdiça o nosso dinheiro em burocracia," está a ignorar que a esmagadora maioria desse dinheiro regressa aos estados-membros.
 
-### O Resultado Final
+A UE gasta aproximadamente 6% do seu orçamento em administração. A alegação de 60% está errada por um fator de dez. As maiores rubricas orçamentais vão para desenvolvimento regional e agricultura: dinheiro que flui diretamente para os estados-membros e os seus cidadãos.
 
-A UE gasta aproximadamente 6% do seu orçamento em administração. A alegação de 60% está errada por um fator de dez. As maiores rubricas orçamentais vão para desenvolvimento regional e agricultura — dinheiro que flui diretamente para os estados-membros e os seus cidadãos.
-
-**Os documentos orçamentais são públicos. Leia-os. Forme a sua opinião com base nos números reais, não nos inventados.**
+Os documentos orçamentais são públicos. Leia-os. Forme a sua opinião com base nos números reais, não nos inventados.

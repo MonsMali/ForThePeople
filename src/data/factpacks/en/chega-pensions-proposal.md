@@ -19,9 +19,9 @@ draft: false
 
 ## What They Said
 
-During Portugal's budget debate, Chega (a right-wing populist party) proposed raising minimum pensions to match the IAS (Indexante dos Apoios Sociais — the Social Support Index, a key reference value for social benefits in Portugal).
+During Portugal's budget debate, Chega (a right-wing populist party) proposed raising minimum pensions to match the IAS (Indexante dos Apoios Sociais, the Social Support Index, a key reference value for social benefits in Portugal).
 
-The government and the Socialist Party (PS) accused the measure of being "irresponsible" and of "blowing up the public accounts." Andre Ventura, Chega's leader, countered that the cost would be marginal — around 4-5% of Social Security's total budget.
+The government and the Socialist Party (PS) accused the measure of being "irresponsible" and of "blowing up the public accounts." Andre Ventura, Chega's leader, countered that the cost would be marginal: around 4-5% of Social Security's total budget.
 
 ## What The Documents Show
 
@@ -37,14 +37,14 @@ We checked the numbers against official Social Security data:
 
 ### The Verdict
 
-Ventura's claim about the *size* of the cost (4-5%) is **true**. The numbers check out.
+Ventura's claim about the size of the cost (4-5%) is **true**. The numbers check out.
 
 You can politically disagree about where to find that money. You can argue that other priorities should come first. You can debate whether this is the best use of limited resources. These are legitimate political disagreements.
 
-But the mathematical claim — that this is not an impossible amount, that it would not "blow up" the public accounts — is correct. The "budget disaster" framing is a political argument, not an absolute accounting fact.
+But the mathematical claim that this is not an impossible amount, that it would not "blow up" the public accounts, is correct. The "budget disaster" framing is a political argument, not an absolute accounting fact.
 
 ### Why This Matters
 
-We publish this fact-pack with a "Confirmed" verdict because credibility requires fairness. We check claims from all parties. When the numbers support what was said, we say so — regardless of who said it.
+We publish this fact-pack with a "Confirmed" verdict because credibility requires fairness. We check claims from all parties. When the numbers support what was said, we say so, regardless of who said it.
 
-**Social Security budget execution data is public. Parliamentary proposals are public. The arithmetic does not have a political party.**
+Social Security budget execution data is public. Parliamentary proposals are public. The arithmetic does not have a political party.

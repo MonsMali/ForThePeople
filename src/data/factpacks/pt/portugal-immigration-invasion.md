@@ -22,26 +22,24 @@ draft: false
 
 ## O Que Estão a Dizer
 
-Políticos — principalmente do Chega mas também ecoados por alguns comentadores — descrevem a imigração para Portugal como uma "invasão descontrolada." A linguagem é deliberadamente militar: invasão, enxurrada, perda de controlo. A implicação é que Portugal está a ser submergido e que os imigrantes são a causa dos problemas do país: custos da habitação, salários baixos, serviços públicos sobrecarregados.
+Políticos (principalmente do Chega mas também ecoados por alguns comentadores) descrevem a imigração para Portugal como uma "invasão descontrolada." A linguagem é deliberadamente militar: invasão, enxurrada, perda de controlo. A implicação é que Portugal está a ser submergido e que os imigrantes são a causa dos problemas do país: custos da habitação, salários baixos, serviços públicos sobrecarregados.
 
-**As preocupações subjacentes a esta retórica são reais.** A habitação em Lisboa e no Porto tornou-se inacessível para muitas famílias portuguesas. Os salários estagnaram. Os serviços públicos estão sob pressão. Estes são problemas sérios que afetam pessoas reais.
-
-A questão é se "invasão" descreve o que está realmente a acontecer — e se os imigrantes são a causa.
+A habitação em Lisboa e no Porto tornou-se inacessível para muitas famílias portuguesas. Os salários estagnaram. Os serviços públicos estão sob pressão. Estes são problemas sérios que afetam pessoas reais. A questão é se "invasão" descreve o que está realmente a acontecer e se os imigrantes são a causa.
 
 ## O Que Os Documentos Mostram
 
 ### A Escala: Portugal vs. Europa
 
-| País | População nascida no estrangeiro (% do total) | "Invasão"? |
-|------|-----------------------------------------------|------------|
-| Luxemburgo | 47,6% | Não |
-| Suíça | 30,1% | Não |
-| Áustria | 19,9% | Não |
-| Suécia | 20,2% | Não |
-| Alemanha | 18,8% | Não |
-| Irlanda | 17,6% | Não |
-| **Portugal** | **~10,2%** | **"Invasão"** |
-| Média da UE | ~13,0% | — |
+| País | População nascida no estrangeiro (% do total) |
+|------|-----------------------------------------------|
+| Luxemburgo | 47,6% |
+| Suíça | 30,1% |
+| Áustria | 19,9% |
+| Suécia | 20,2% |
+| Alemanha | 18,8% |
+| Irlanda | 17,6% |
+| **Portugal** | **~10,2%** |
+| Média da UE | ~13,0% |
 
 A população nascida no estrangeiro em Portugal está **abaixo da média da UE.** Países com percentagens muito superiores de residentes nascidos no estrangeiro não se descrevem como estando a ser "invadidos."
 
@@ -69,21 +67,14 @@ Os problemas atribuídos aos imigrantes têm causas estruturais que são anterio
 | Salários baixos | "Os imigrantes trabalham por menos" | Décadas de compressão salarial, sindicatos fracos, preferência dos empregadores por mão de obra barata, política insuficiente de salário mínimo |
 | Serviços sobrecarregados | "Demasiados imigrantes a usar o nosso SNS" | Subfinanciamento crónico do SNS, falta de médicos de família (que médicos imigrantes ajudam a preencher), cortes da austeridade |
 
-Estes problemas estavam a acumular-se muito antes da aceleração da imigração. Culpar os imigrantes desvia a atenção das falhas políticas — e dos interesses poderosos — que realmente os causaram.
+Estes problemas estavam a acumular-se muito antes da aceleração da imigração. Culpar os imigrantes desvia a atenção das falhas políticas (e dos interesses poderosos) que realmente os causaram.
 
 ### Quem Beneficia da Narrativa da "Invasão"?
 
-Considere quem beneficia de culpar os imigrantes em vez de abordar as causas raiz:
-
-- **Senhorios e investidores imobiliários** beneficiam quando a revolta com a habitação é dirigida aos imigrantes em vez da especulação e do Airbnb
-- **Empregadores que pagam salários baixos** beneficiam quando os trabalhadores culpam os imigrantes em vez de exigir melhor remuneração
-- **Políticos que subfinanciaram serviços** beneficiam quando a pressão é atribuída aos recém-chegados em vez dos cortes orçamentais
-- **Partidos políticos** beneficiam do medo e da revolta que a narrativa da "invasão" gera
+Considere quem beneficia de culpar os imigrantes em vez de abordar as causas raiz. Senhorios e investidores imobiliários beneficiam quando a revolta com a habitação é dirigida aos imigrantes em vez da especulação e do Airbnb. Empregadores que pagam salários baixos beneficiam quando os trabalhadores culpam os imigrantes em vez de exigir melhor remuneração. Políticos que subfinanciaram serviços beneficiam quando a pressão é atribuída aos recém-chegados em vez dos cortes orçamentais. Partidos políticos beneficiam do medo e da revolta que a narrativa da "invasão" gera.
 
 O enquadramento da "invasão" não resolve nenhum destes problemas. Redireciona a culpa.
 
-### O Resultado Final
+A imigração para Portugal aumentou, e esse aumento merece uma discussão política honesta. Mas o enquadramento como "invasão" não é sustentado pelos dados: a população nascida no estrangeiro em Portugal está abaixo da média da UE. Os problemas estruturais atribuídos aos imigrantes (habitação, salários, serviços públicos) têm raízes em decisões políticas, subinvestimento e forças económicas que são anteriores ao aumento da imigração.
 
-A imigração para Portugal aumentou, e esse aumento merece uma discussão política honesta. Mas o enquadramento como "invasão" não é sustentado pelos dados: a população nascida no estrangeiro em Portugal está abaixo da média da UE. Os problemas estruturais atribuídos aos imigrantes — habitação, salários, serviços públicos — têm raízes em decisões políticas, subinvestimento e forças económicas que são anteriores ao aumento da imigração.
-
-**O Eurostat publica os dados comparativos. O INE acompanha a contribuição económica. Os números reais não sustentam a palavra "invasão."**
+O Eurostat publica os dados comparativos. O INE acompanha a contribuição económica. Os números reais não sustentam a palavra "invasão."

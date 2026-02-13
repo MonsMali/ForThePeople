@@ -18,13 +18,11 @@ draft: false
 ---
 
 ## O Que Foi Dito
+
 Durante o debate do Orçamento, o Chega propôs subir as pensões mínimas para o valor do Indexante dos Apoios Sociais (IAS). O Governo e o PS acusaram a medida de ser "irresponsável" e de "rebentar as contas públicas". André Ventura contra-atacou dizendo que o custo seria marginal (4-5%).
 
 ## O Que Os Números Mostram
-Fizemos as contas aos dados oficiais da Segurança Social:
 
-1.  **Custo da Medida:** O impacto estimado ronda os **900 milhões a 1,1 mil milhões de euros** anuais.
-2.  **Orçamento Total:** A Segurança Social tem um orçamento anual superior a **30 mil milhões de euros**.
-3.  **A Percentagem:** 1 mil milhões representa cerca de **3,3% a 4%** do orçamento total.
+Os dados oficiais da Segurança Social mostram o seguinte. O impacto estimado ronda os 900 milhões a 1,1 mil milhões de euros anuais. A Segurança Social tem um orçamento anual superior a 30 mil milhões de euros. Mil milhões representa cerca de 3,3% a 4% do orçamento total.
 
-**Veredito:** A afirmação de Ventura sobre a *dimensão* do custo (4-5%) é **Verdadeira**. Pode-se discordar politicamente de onde tirar esse dinheiro, mas a afirmação matemática de que não é um valor impossível está correta. O "rombo" nas contas públicas é um argumento político, não um facto contabilístico absoluto.
+A afirmação de Ventura sobre a dimensão do custo (4-5%) está correta. Pode-se discordar politicamente de onde tirar esse dinheiro, mas a afirmação matemática de que não é um valor impossível está sustentada pelos números. O "rombo" nas contas públicas é um argumento político, não um facto contabilístico absoluto.

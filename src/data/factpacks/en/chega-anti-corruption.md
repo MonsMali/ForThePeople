@@ -22,11 +22,9 @@ draft: false
 
 ## What They Are Saying
 
-André Ventura and Chega consistently brand themselves as the only "clean hands" party in Portuguese politics — the sole force fighting corruption on behalf of "o povo" (the people). The party positions itself as an outsider untainted by the scandals that have plagued PS, PSD, and other establishment parties.
+André Ventura and Chega consistently brand themselves as the only "clean hands" party in Portuguese politics, the sole force fighting corruption on behalf of "o povo" (the people). The party positions itself as an outsider untainted by the scandals that have plagued PS, PSD, and other establishment parties.
 
-**Frustration with political corruption in Portugal is deeply justified.** From the BES/Novo Banco scandal to Operation Marquês, Portuguese citizens have watched billions disappear while politicians avoided consequences. The anger is real.
-
-But anger deserves an honest answer: is Chega actually cleaner than the parties it criticises?
+Is Chega actually cleaner than the parties it criticises?
 
 ## What The Documents Show
 
@@ -45,21 +43,11 @@ Chega's anti-corruption positioning rests on several pillars:
 
 #### Funding Questions
 
-Portuguese party funding is regulated by the ECFP (Entidade das Contas e Financiamentos Políticos), which operates under the Constitutional Court. Public records show:
-
-- Chega experienced the fastest fundraising growth of any Portuguese party in 2022-2024
-- The party has faced questions about the origin and transparency of certain donations
-- Multiple media investigations have raised concerns about small-donor patterns that merit regulatory scrutiny
-- The ECFP examines all party accounts; Chega's have not been found in violation, but questions about full transparency have been raised publicly by oversight bodies
+Portuguese party funding is regulated by the ECFP (Entidade das Contas e Financiamentos Políticos), which operates under the Constitutional Court. Public records show Chega experienced the fastest fundraising growth of any Portuguese party in 2022-2024. The party has faced questions about the origin and transparency of certain donations. Multiple media investigations have raised concerns about small-donor patterns that merit regulatory scrutiny. The ECFP examines all party accounts; Chega's have not been found in violation, but questions about full transparency have been raised publicly by oversight bodies.
 
 #### Internal Disciplinary Scandals
 
-Chega has expelled or suspended multiple members and local officials:
-
-- Several elected local officials were removed or suspended for conduct scandals
-- Internal power struggles led to the departure of founding members who accused the party leadership of authoritarian decision-making
-- Candidates have been put forward and later removed after problematic social media posts or background issues surfaced
-- The party's internal disciplinary process has been criticised as opaque by former members
+Chega has expelled or suspended multiple members and local officials. Several elected local officials were removed or suspended for conduct scandals. Internal power struggles led to the departure of founding members who accused the party leadership of authoritarian decision-making. Candidates have been put forward and later removed after problematic social media posts or background issues surfaced. The party's internal disciplinary process has been criticised as opaque by former members.
 
 #### The Corruption Mirror
 
@@ -70,30 +58,18 @@ Chega has expelled or suspended multiple members and local officials:
 | "Our people are clean" | Multiple members expelled after scandals |
 | "Establishment parties protect their own" | Former members accuse Chega leadership of the same |
 
-This is not to say Chega is "as corrupt as PS." It is to say that claiming to be **uniquely clean** is not supported by the available evidence.
+This is not to say Chega is "as corrupt as PS." It is to say that claiming to be uniquely clean is not supported by the available evidence.
 
 ### What IS True
 
-To be fair — and credibility requires fairness:
-
-- Chega has raised legitimate questions about corruption in other parties
-- The PS corruption scandals (particularly Operation Marquês) are real and serious
-- Portuguese citizens are right to demand more accountability from their political class
-- Being a newer party, Chega has had less time (and less power) to accumulate a corruption record comparable to parties that have governed for decades
+Credibility requires fairness. Chega has raised legitimate questions about corruption in other parties. The PS corruption scandals (particularly Operation Marquês) are real and serious. Portuguese citizens are right to demand more accountability from their political class. Being a newer party, Chega has had less time (and less power) to accumulate a corruption record comparable to parties that have governed for decades.
 
 These are valid points. But "we have not been in power long enough to be as corrupt" is not the same as "we are uniquely clean."
 
 ### The Manipulation Tactic
 
-The "clean hands" framing works by:
+The "clean hands" framing exploits legitimate anger. Corruption is a real problem, so the critique resonates. Binary framing presents politics as "corrupt establishment vs. clean Chega" with no middle ground. When Chega members are caught in scandals, they are quickly expelled and framed as exceptions. Positioning yourself as the anti-corruption party makes it harder for others to scrutinise your own record without appearing to defend corruption.
 
-1. **Exploiting legitimate anger** — corruption is a real problem, so the critique resonates
-2. **Binary framing** — presenting politics as "corrupt establishment vs. clean Chega" with no middle ground
-3. **Moving the goalposts** — when Chega members are caught in scandals, they are quickly expelled and framed as exceptions
-4. **Avoiding scrutiny** — positioning yourself as the anti-corruption party makes it harder for others to scrutinise your own record without appearing to defend corruption
+Chega has raised valid concerns about corruption in Portuguese politics. But the claim of being "the only clean party" is not supported by the evidence. The party's own record includes funding transparency questions, internal disciplinary scandals, and expelled members. Anti-corruption credibility comes from consistent behaviour, not from branding.
 
-### The Bottom Line
-
-Chega has raised valid concerns about corruption in Portuguese politics. But the claim of being "the only clean party" is not supported by the evidence. The party's own record includes funding transparency questions, internal disciplinary scandals, and expelled members. Anti-corruption credibility comes from consistent behaviour — not from branding.
-
-**Party funding records are public at the Constitutional Court. Parliamentary records are searchable. Judge every party — including Chega — by its actions, not its slogans.**
+Party funding records are public at the Constitutional Court. Parliamentary records are searchable. Judge every party, including Chega, by its actions, not its slogans.

@@ -21,11 +21,11 @@ draft: false
 
 Pedro Nuno Santos, the leader of Portugal's Socialist Party (PS), has repeatedly used TAP Air Portugal's positive 2023 results as a political banner, arguing that his management saved the airline and proved the state can run companies effectively.
 
-This is a major talking point in Portuguese politics because TAP — the national flag carrier — was renationalized during the pandemic and became one of the most expensive bailouts in the country's history.
+This is a major talking point in Portuguese politics because TAP (the national flag carrier) was renationalized during the pandemic and became one of the most expensive bailouts in the country's history.
 
 ## What The Documents Show
 
-The claim is **technically true, but financially misleading**.
+The claim is technically true, but financially misleading.
 
 ### The Profit Is Real
 
@@ -33,7 +33,7 @@ TAP did post record profits in 2023. This is an accounting fact, confirmed in th
 
 ### The Hidden Cost
 
-To reach that profit, the Portuguese state injected **3.2 billion euros** in taxpayer money:
+To reach that profit, the Portuguese state injected 3.2 billion euros in taxpayer money:
 
 | Item | Amount |
 |------|--------|
@@ -41,13 +41,10 @@ To reach that profit, the Portuguese state injected **3.2 billion euros** in tax
 | TAP's 2023 net profit | ~200 million euros |
 | Taxpayer money recovered | A fraction |
 
-- If a company receives 3 billion in non-recoverable aid and then posts a 200 million profit, the "success" is relative.
-- Portugal's Court of Auditors (Tribunal de Contas) has already warned that full recovery of the investment is "implausible."
-
-### The Bottom Line
+If a company receives 3 billion in non-recoverable aid and then posts a 200 million profit, the "success" is relative. Portugal's Court of Auditors (Tribunal de Contas) has already warned that full recovery of the investment is "implausible."
 
 Presenting the profit without mentioning the capital injection is like saying you saved money on lunch after spending a fortune buying the restaurant.
 
-The profit exists. But the claim that this proves public management works ignores the 3.2 billion euros it took to get there — money that Portuguese taxpayers will not see again.
+The profit exists. But the claim that this proves public management works ignores the 3.2 billion euros it took to get there, money that Portuguese taxpayers will not see again.
 
-**TAP's annual reports are public. The European Commission's state aid decision is public. The numbers speak for themselves.**
+TAP's annual reports are public. The European Commission's state aid decision is public. The numbers speak for themselves.

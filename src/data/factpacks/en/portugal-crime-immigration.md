@@ -24,10 +24,6 @@ draft: false
 
 Several Portuguese politicians, particularly from populist parties, have claimed that crime in Portugal has "doubled" or "skyrocketed" as a direct result of increased immigration. These claims intensified during the 2024-2025 political cycle and are frequently shared on social media.
 
-**Concern about public safety is legitimate.** Everyone wants to live in a safe community, and questioning whether policy changes affect crime rates is a reasonable thing to do.
-
-But the question deserves an honest answer based on actual crime data — not campaign slogans.
-
 ## What The Documents Show
 
 ### The Official Crime Statistics
@@ -49,21 +45,14 @@ During this same period, the foreign resident population in Portugal increased f
 
 ### The Disconnect
 
-Crime decreased while immigration increased. These two facts cannot both be true *and* support the claim that immigration caused crime to double.
+Crime decreased while immigration increased. These two facts cannot both be true and support the claim that immigration caused crime to double.
 
-Some politicians point to specific crime categories (such as robbery in Lisbon) that saw temporary increases. This is a common **cherry-picking tactic**:
-
-1. Take one subcategory that went up
-2. Ignore the overall trend that went down
-3. Attribute the subcategory to immigration without evidence
-4. Present it as the whole picture
+Some politicians point to specific crime categories (such as robbery in Lisbon) that saw temporary increases. This is a common cherry-picking tactic. Take one subcategory that went up. Ignore the overall trend that went down. Attribute the subcategory to immigration without evidence. Present it as the whole picture.
 
 ### What About Per-Capita Rates?
 
 Even when adjusted for population growth (including immigration), the per-capita crime rate in Portugal decreased. More people, less crime per person.
 
-### The Bottom Line
-
 Portugal's overall crime rate decreased by 12% between 2019 and 2024, a period of significant immigration growth. The claim that crime "doubled due to immigration" is contradicted by the government's own security report.
 
-**The RASI is a public document. PORDATA publishes the time series. The data is there for anyone to check.**
+The RASI is a public document. PORDATA publishes the time series. The data is there for anyone to check.

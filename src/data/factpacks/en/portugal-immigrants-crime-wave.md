@@ -24,9 +24,7 @@ draft: false
 
 André Ventura and the Chega party regularly claim that foreigners make up 20-30% of the prison population and that immigration is the primary driver of rising crime in Portugal. These numbers are repeated in parliament, on social media, and during campaign events. The implication is clear: immigrants are making Portugal dangerous.
 
-**Concern about crime is legitimate.** Everyone wants safe streets, and if policy changes are making communities less safe, that deserves serious attention.
-
-But serious attention means looking at the actual numbers — not rounded-up versions designed to provoke fear.
+Serious attention means looking at the actual numbers, not rounded-up versions designed to provoke fear.
 
 ## What The Documents Show
 
@@ -40,7 +38,7 @@ The DGRSP (Direção-Geral de Reinserção e Serviços Prisionais) publishes off
 | Foreign nationals | ~2,100 | ~17% |
 | **Total prison population** | **~12,300** | **100%** |
 
-The foreign prisoner percentage is approximately **17%**, not "20-30%" as claimed. This is a significant difference — inflating 17% to 30% nearly doubles the figure.
+The foreign prisoner percentage is approximately 17%, not "20-30%" as claimed. This is a significant difference. Inflating 17% to 30% nearly doubles the figure.
 
 ### Is 17% Disproportionate?
 
@@ -51,7 +49,7 @@ Foreign nationals represent roughly 10% of Portugal's population and 17% of the 
 | Socioeconomic status | Foreign prisoners are disproportionately from the poorest demographics |
 | Legal representation | Non-citizens have less access to legal aid and are more likely to be held in pre-trial detention |
 | Type of offence | Many foreign prisoners are in transit (drug trafficking routes) rather than resident immigrants |
-| Comparable EU data | Similar or higher foreign prisoner percentages exist in Switzerland (70%), Austria (55%), and Germany (34%) — countries not experiencing "crime waves" |
+| Comparable EU data | Similar or higher foreign prisoner percentages exist in Switzerland (70%), Austria (55%), and Germany (34%), countries not experiencing "crime waves" |
 
 Over-representation in prisons correlates most strongly with poverty, not nationality.
 
@@ -68,18 +66,10 @@ More immigrants arrived. Total crime went down. These facts are incompatible wit
 
 ### The Cherry-Picking Tactic
 
-The Chega narrative works by:
-
-1. **Rounding up** — inflating 17% to "20-30%" makes the number scarier
-2. **Ignoring the baseline** — not mentioning that overall crime is falling
-3. **Conflating correlation with cause** — a foreign person in prison does not prove immigration causes crime
-4. **Omitting socioeconomic context** — poverty, not nationality, is the strongest predictor of incarceration
-5. **Selecting individual cases** — highlighting specific crimes by foreigners while ignoring that the vast majority of crime is committed by Portuguese citizens
+The Chega narrative uses rounding up (inflating 17% to "20-30%" makes the number scarier), ignoring the baseline (not mentioning that overall crime is falling), conflating correlation with cause (a foreign person in prison does not prove immigration causes crime), omitting socioeconomic context (poverty, not nationality, is the strongest predictor of incarceration), and selecting individual cases (highlighting specific crimes by foreigners while ignoring that the vast majority of crime is committed by Portuguese citizens).
 
 This is a pattern used by far-right parties across Europe. It is not unique to Portugal, and it is not supported by the data anywhere it has been tried.
 
-### The Bottom Line
+Official data shows foreign nationals make up approximately 17% of Portugal's prison population, not the 20-30% claimed. Overall crime has decreased 12% during a period of significant immigration growth. The claim that immigrants are behind a "crime wave" is contradicted by the government's own statistics.
 
-Official data shows foreign nationals make up approximately 17% of Portugal's prison population — not the 20-30% claimed. Overall crime has decreased 12% during a period of significant immigration growth. The claim that immigrants are behind a "crime wave" is contradicted by the government's own statistics.
-
-**The DGRSP publishes prison data. The RASI tracks crime trends. Eurostat provides EU comparisons. The numbers are there for anyone to check.**
+The DGRSP publishes prison data. The RASI tracks crime trends. Eurostat provides EU comparisons. The numbers are there for anyone to check.

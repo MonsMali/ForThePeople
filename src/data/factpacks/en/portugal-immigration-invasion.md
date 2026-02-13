@@ -22,28 +22,26 @@ draft: false
 
 ## What They Are Saying
 
-Politicians — primarily from Chega but also echoed by some commentators — describe immigration to Portugal as an "uncontrolled invasion." The language is deliberately military: invasion, flood, loss of control. The implication is that Portugal is being overwhelmed and that immigrants are the cause of the country's problems: housing costs, low wages, strained public services.
+Politicians (primarily from Chega but also echoed by some commentators) describe immigration to Portugal as an "uncontrolled invasion." The language is deliberately military: invasion, flood, loss of control. The implication is that Portugal is being overwhelmed and that immigrants are the cause of the country's problems: housing costs, low wages, strained public services.
 
-**The concerns underlying this rhetoric are real.** Housing in Lisbon and Porto has become unaffordable for many Portuguese families. Wages have stagnated. Public services are under pressure. These are serious problems that affect real people.
-
-The question is whether "invasion" describes what is actually happening — and whether immigrants are the cause.
+The question is whether "invasion" describes what is actually happening, and whether immigrants are the cause.
 
 ## What The Documents Show
 
 ### The Scale: Portugal vs. Europe
 
-| Country | Foreign-born population (% of total) | "Invasion"? |
-|---------|--------------------------------------|-------------|
-| Luxembourg | 47.6% | No |
-| Switzerland | 30.1% | No |
-| Austria | 19.9% | No |
-| Sweden | 20.2% | No |
-| Germany | 18.8% | No |
-| Ireland | 17.6% | No |
-| **Portugal** | **~10.2%** | **"Invasion"** |
-| EU average | ~13.0% | — |
+| Country | Foreign-born population (% of total) |
+|---------|--------------------------------------|
+| Luxembourg | 47.6% |
+| Switzerland | 30.1% |
+| Austria | 19.9% |
+| Sweden | 20.2% |
+| Germany | 18.8% |
+| Ireland | 17.6% |
+| **Portugal** | **~10.2%** |
+| EU average | ~13.0% |
 
-Portugal's foreign-born population is **below the EU average.** Countries with far higher percentages of foreign-born residents do not describe themselves as being "invaded."
+Portugal's foreign-born population is below the EU average. Countries with far higher percentages of foreign-born residents do not describe themselves as being "invaded."
 
 ### The Contribution
 
@@ -55,7 +53,7 @@ Immigration is not a one-way drain. The data on immigrant contributions to Portu
 | Agriculture | Critical labour force in Alentejo harvests |
 | Healthcare | Growing number of foreign-trained doctors and nurses filling shortages |
 | Construction | Significant share of workforce in housing construction |
-| Social security | Net positive contributors — working-age immigrants pay more in than they take out |
+| Social security | Net positive contributors, working-age immigrants pay more in than they take out |
 
 Portugal has an ageing population and a low birth rate. Without immigration, the social security system would face a demographic crisis faster than it already is.
 
@@ -69,21 +67,14 @@ The problems blamed on immigrants have structural causes that predate the recent
 | Low wages | "Immigrants work for less" | Decades of wage compression, weak unions, employer preference for cheap labour, insufficient minimum wage policy |
 | Strained services | "Too many immigrants using our NHS" | Chronic underfunding of SNS, GP shortages (which immigrant doctors help fill), austerity-era cuts |
 
-These problems were building long before immigration accelerated. Blaming them on immigrants diverts attention from the policy failures — and the powerful interests — that actually caused them.
+These problems were building long before immigration accelerated. Blaming them on immigrants diverts attention from the policy failures (and the powerful interests) that actually caused them.
 
 ### Who Benefits From the "Invasion" Narrative?
 
-Consider who benefits from blaming immigrants instead of addressing root causes:
-
-- **Landlords and property investors** benefit when housing anger is directed at immigrants rather than at speculation and Airbnb
-- **Employers paying low wages** benefit when workers blame immigrants rather than demanding better pay
-- **Politicians who underfunded services** benefit when strain is blamed on new arrivals rather than budget cuts
-- **Political parties** benefit from the fear and anger the "invasion" narrative generates
+Consider who benefits from blaming immigrants instead of addressing root causes. Landlords and property investors benefit when housing anger is directed at immigrants rather than at speculation and Airbnb. Employers paying low wages benefit when workers blame immigrants rather than demanding better pay. Politicians who underfunded services benefit when strain is blamed on new arrivals rather than budget cuts. Political parties benefit from the fear and anger the "invasion" narrative generates.
 
 The "invasion" framing does not solve any of these problems. It redirects blame.
 
-### The Bottom Line
+Immigration to Portugal has increased, and that increase deserves honest policy discussion. But the framing as an "invasion" is not supported by the data: Portugal's foreign-born population is below the EU average. The structural problems blamed on immigrants (housing, wages, public services) have roots in policy decisions, underinvestment, and economic forces that predate the immigration increase.
 
-Immigration to Portugal has increased, and that increase deserves honest policy discussion. But the framing as an "invasion" is not supported by the data: Portugal's foreign-born population is below the EU average. The structural problems blamed on immigrants — housing, wages, public services — have roots in policy decisions, underinvestment, and economic forces that predate the immigration increase.
-
-**Eurostat publishes the comparative data. INE tracks the economic contribution. The real numbers do not support the word "invasion."**
+Eurostat publishes the comparative data. INE tracks the economic contribution. The real numbers do not support the word "invasion."

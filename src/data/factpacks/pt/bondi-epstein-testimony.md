@@ -24,17 +24,15 @@ draft: false
 
 As redes sociais afirmam que Pam Bondi "mentiu sob juramento" quando declarou durante a sua audiência de confirmação no Senado que não havia "nenhuma prova" no caso Epstein. A alegação tornou-se viral com milhões de visualizações nas plataformas.
 
-**Compreendemos por que isto causa revolta.** Quando pessoas poderosas parecem escapar à responsabilização por crimes graves, e os responsáveis que deveriam procurar justiça parecem olhar para o outro lado, a indignação é legítima.
-
-Mas a indignação merece rigor. Vamos analisar exatamente o que foi dito e o que os documentos mostram.
+Quando pessoas poderosas parecem escapar à responsabilização por crimes graves, e os responsáveis que deveriam procurar justiça parecem olhar para o outro lado, a indignação é legítima. Mas a indignação merece rigor.
 
 ## O Que Os Documentos Mostram
 
 ### As Palavras Exatas
 
-Durante a sua audiência de confirmação no Comité Judiciário do Senado, Bondi foi questionada sobre o caso Epstein. A sua resposta fez referência ao padrão de **prova processável** — não ao significado coloquial de "prova."
+Durante a sua audiência de confirmação no Comité Judiciário do Senado, Bondi foi questionada sobre o caso Epstein. A sua resposta fez referência ao padrão de **prova processável**, não ao significado coloquial de "prova."
 
-Esta é uma distinção crítica:
+A distinção é fundamental:
 
 | Termo | O que significa |
 |-------|----------------|
@@ -45,32 +43,16 @@ Esta é uma distinção crítica:
 
 A Secção 9-27.220 do Manual de Justiça do DOJ estabelece que procuradores federais só devem apresentar acusações quando acreditam que a **prova admissível** é suficiente para obter e sustentar uma condenação. Este é um limiar deliberadamente elevado.
 
-Isto significa que provas podem existir — até provas convincentes — sem atingir o padrão "processável." Estas são duas declarações muito diferentes:
-
-1. "Nada aconteceu"
-2. "Não temos prova admissível suficiente para garantir uma condenação"
+Provas podem existir (até provas convincentes) sem atingir o padrão "processável." Estas são duas declarações muito diferentes: "Nada aconteceu" versus "Não temos prova admissível suficiente para garantir uma condenação."
 
 ### Por Que Isto Importa
 
-Esta técnica retórica é chamada de **"negação sem negar."** Funciona assim:
-
-1. Usando uma frase legalmente precisa
-2. Que o público geral interpreta como uma declaração muito mais forte
-3. Criando a impressão de exoneração total
-4. Sem realmente dizer que nada aconteceu
-
-**Esta é uma tática de manipulação independente de quem a usa.** Políticos de todo o espetro dependem da lacuna entre linguagem jurídica e entendimento público. Reconhecer o padrão é mais importante que escolher um lado.
+A técnica retórica chama-se **"negação sem negar."** Funciona usando uma frase legalmente precisa que o público geral interpreta como uma declaração muito mais forte. Cria-se a impressão de exoneração total sem realmente dizer que nada aconteceu. Políticos de todo o espetro dependem da lacuna entre linguagem jurídica e entendimento público. Reconhecer o padrão é mais importante que escolher um lado.
 
 ### Em Portugal, Conhecemos Bem Este Truque
 
-A mesma técnica é usada na política portuguesa. Quando um político diz "não há nenhum processo em curso" — isso não significa que não houve irregularidades. Significa que nenhum procurador decidiu ainda que há prova suficiente para acusar formalmente.
+A mesma técnica permeia a política portuguesa. Quando um político diz "não há nenhum processo em curso", isso não significa que não houve irregularidades. Significa que nenhum procurador decidiu ainda que há prova suficiente para acusar formalmente. O mesmo padrão, o mesmo truque, países diferentes.
 
-**O mesmo padrão. O mesmo truque. Países diferentes.**
+A declaração de Bondi foi **tecnicamente defensável sob padrões legais** mas **praticamente enganadora para o público geral.** Ela usou jargão profissional que carrega um significado específico em contextos legais mas soa como "nada para ver aqui" para todos os outros. Isto não é "mentir sob juramento" no sentido legal. Mas também não é ser transparente com o público.
 
-### O Resultado Final
-
-A declaração de Bondi foi **tecnicamente defensável sob padrões legais** mas **praticamente enganadora para o público geral.** Ela usou jargão profissional que carrega um significado específico em contextos legais mas soa como "nada para ver aqui" para todos os outros.
-
-Isto não é "mentir sob juramento" no sentido legal. Mas também não é ser transparente com o público.
-
-**Leia a transcrição. Leia as diretrizes do DOJ. A lacuna entre "sem prova" e "sem prova processável" é onde a responsabilização vai morrer.**
+Leia a transcrição. Leia as diretrizes do DOJ. A lacuna entre "sem prova" e "sem prova processável" é onde a responsabilização vai morrer.
