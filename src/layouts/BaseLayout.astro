@@ -1,5 +1,6 @@
 ---
 import type { Lang } from '../i18n/languages';
+import { ViewTransitions } from 'astro:transitions';
 import SEOHead from '../components/SEOHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -36,6 +37,7 @@ const { lang, translationKey, ...seoProps } = Astro.props;
       lang={lang}
       translationKey={translationKey}
     />
+    <ViewTransitions />
   </head>
   <body class="min-h-screen flex flex-col">
     <Header lang={lang} translationKey={translationKey} />

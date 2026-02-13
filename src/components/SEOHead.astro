@@ -103,6 +103,14 @@ const claimReview = claim && verdict
 <meta name="description" content={description} />
 <link rel="canonical" href={currentUrl} />
 
+<!-- RSS Feed -->
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title={`${siteTitle} RSS Feed`}
+  href={new URL(`/${lang}/rss.xml`, Astro.site).href}
+/>
+
 <!-- Language alternates -->
 <link rel="alternate" hreflang={lang} href={currentUrl} />
 {otherLangPath && (
