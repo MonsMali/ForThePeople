@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { useTranslations } from '../../i18n/utils';
+import type { Lang } from '../../i18n/languages';
+
+const lang: Lang = 'en';
+const t = useTranslations(lang);
+---
+
+<BaseLayout
+  title="About & Methodology"
+  description="How ForThePeople works: our methodology, verdict system, and editorial standards."
+  lang={lang}
+  translationKey="about"
+>
+  <article class="max-w-3xl mx-auto px-4 py-12">
+    <h1 class="text-3xl md:text-4xl font-sans font-bold text-ink leading-tight mb-2">
+      About & Methodology
+    </h1>
+    <p class="text-lg text-muted font-sans mb-10">
+      How we work, what we check, and how you can verify everything yourself.
+    </p>
+
+    <div class="prose prose-lg max-w-none
+      prose-headings:font-sans prose-headings:text-ink
+      prose-p:text-ink/85 prose-p:leading-relaxed
+      prose-a:text-blue-600 prose-a:underline hover:prose-a:text-blue-800
+      prose-strong:text-ink
+    ">
+      <h2>What This Is</h2>
+      <p>
+        ForThePeople is a transparency project. We take claims made by politicians and public figures,
+        find the original documents, and put them side by side so you can see for yourself.
+      </p>
+      <p>
+        We are not affiliated with any political party. We don't tell you who to vote for.
+        We show you the documents and let you make up your own mind.
+      </p>
+
+      <h2>Our Methodology</h2>
+      <p>Every fact-pack follows the same process:</p>
+      <ol>
+        <li><strong>Identify the claim</strong> — We find a specific, verifiable claim made by a public figure. Not opinions, not predictions — statements about facts that can be checked.</li>
+        <li><strong>Find the documents</strong> — We locate the primary source: parliamentary records, official votes, government documents, court filings, public databases. Not what someone said about it — the actual document.</li>
+        <li><strong>Show both</strong> — We present the claim and the document side by side. We include screenshots of the actual documents so you can see them without leaving the page.</li>
+        <li><strong>Assign a verdict</strong> — Based on what the documents show, we rate the claim using our verdict system (see below).</li>
+        <li><strong>Link everything</strong> — Every source is linked. Every document is accessible. If we got something wrong, you can check.</li>
+      </ol>
+
+      <h2>Verdict System</h2>
+      <p>We use five verdicts. Each one means something specific:</p>
+    </div>
+
+    <!-- Verdict legend -->
+    <div class="my-8 space-y-3">
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-false text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">False</span>
+        <p class="font-sans text-sm text-ink/80">The claim is demonstrably untrue. The documents directly contradict what was said.</p>
+      </div>
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-misleading text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Misleading</span>
+        <p class="font-sans text-sm text-ink/80">The claim contains some truth but distorts the context, omits key information, or creates a false impression.</p>
+      </div>
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-missing-context text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Missing Context</span>
+        <p class="font-sans text-sm text-ink/80">The claim is technically true but critically incomplete. Without the missing context, it creates a wrong impression.</p>
+      </div>
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-mixed text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Mixed</span>
+        <p class="font-sans text-sm text-ink/80">Parts of the claim are true and parts are false. The reality is more complicated than what was said.</p>
+      </div>
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-true text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Confirmed</span>
+        <p class="font-sans text-sm text-ink/80">The claim is accurate. The documents support what was said. We include these for credibility — not everything is a lie.</p>
+      </div>
+    </div>
+
+    <div class="prose prose-lg max-w-none
+      prose-headings:font-sans prose-headings:text-ink
+      prose-p:text-ink/85 prose-p:leading-relaxed
+      prose-a:text-blue-600 prose-a:underline hover:prose-a:text-blue-800
+      prose-strong:text-ink
+    ">
+      <h2>Editorial Standards</h2>
+      <ul>
+        <li><strong>Primary sources only.</strong> We link to the actual document, not someone else's interpretation of it.</li>
+        <li><strong>No anonymous claims.</strong> Every fact-pack identifies who said what and when.</li>
+        <li><strong>Corrections are public.</strong> If we get something wrong, we update the fact-pack and note the revision.</li>
+        <li><strong>No ideology.</strong> We check claims from all sides. If a politician tells the truth, we say so.</li>
+        <li><strong>Verifiable.</strong> Every source is linked. You should never have to take our word for it.</li>
+      </ul>
+
+      <h2>Who We Are</h2>
+      <p>
+        ForThePeople is an open, volunteer-driven project. We believe that democracy works better
+        when citizens can easily check what their representatives actually do — not just what they say.
+      </p>
+      <p>
+        We are not funded by any political party, government, or corporation. The site is open source
+        and free to use. You are welcome to share any of our fact-packs.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Found an error? Have a claim you want us to check? Want to contribute?
+        Reach us at <strong>hello@forthepeople.org</strong>.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,56 @@
+---
+import type { Lang } from '../i18n/languages';
+import { useTranslations } from '../i18n/utils';
+import EvidenceEmbed from './EvidenceEmbed.astro';
+
+interface Source {
+  label: string;
+  url: string;
+  evidenceImage?: string;
+}
+
+interface Props {
+  sources: Source[];
+  lang: Lang;
+}
+
+const { sources, lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<section class="mt-10 pt-8 border-t border-border">
+  <h2 class="text-2xl font-sans font-bold text-ink mb-6">
+    {t('factpack.sources')}
+  </h2>
+  <ol class="space-y-6">
+    {sources.map((source, i) => (
+      <li class="flex flex-col gap-2">
+        <div class="flex items-start gap-3">
+          <span class="flex-shrink-0 w-7 h-7 rounded-full bg-ink text-white font-sans text-sm font-bold flex items-center justify-center">
+            {i + 1}
+          </span>
+          <div class="flex-1">
+            <a
+              href={source.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-sans text-base text-blue-600 hover:text-blue-800 underline leading-snug"
+            >
+              {source.label}
+            </a>
+          </div>
+        </div>
+        {source.evidenceImage && (
+          <div class="ml-10">
+            <EvidenceEmbed
+              src={source.evidenceImage}
+              alt={source.label}
+              sourceUrl={source.url}
+              lang={lang}
+            />
+          </div>
+        )}
+      </li>
+    ))}
+  </ol>
+</section>

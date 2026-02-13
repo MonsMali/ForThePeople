@@ -1,0 +1,47 @@
+---
+import type { Lang } from '../i18n/languages';
+import SEOHead from '../components/SEOHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Source {
+  label: string;
+  url: string;
+  evidenceImage?: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  lang: Lang;
+  ogImage?: string;
+  translationKey?: string;
+  claim?: string;
+  verdict?: string;
+  verdictSummary?: string;
+  publishedDate?: Date;
+  lastUpdated?: Date;
+  sources?: Source[];
+}
+
+const { lang, translationKey, ...seoProps } = Astro.props;
+---
+
+<!doctype html>
+<html lang={lang} data-lang={lang}>
+  <head>
+    <SEOHead
+      {...seoProps}
+      lang={lang}
+      translationKey={translationKey}
+    />
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <Header lang={lang} translationKey={translationKey} />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

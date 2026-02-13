@@ -1,0 +1,45 @@
+---
+import type { Lang } from '../i18n/languages';
+import { useTranslations } from '../i18n/utils';
+
+interface Props {
+  src: string;
+  alt: string;
+  sourceUrl?: string;
+  lang: Lang;
+}
+
+const { src, alt, sourceUrl, lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<figure class="my-6 border border-border rounded-lg overflow-hidden shadow-sm bg-white">
+  <div class="border-b border-border bg-paper-dark px-4 py-2 flex items-center gap-2">
+    <svg class="w-4 h-4 text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+    </svg>
+    <span class="text-xs font-sans text-muted uppercase tracking-wide">
+      {t('factpack.viewDocument')}
+    </span>
+  </div>
+  <div class="p-2">
+    <img
+      src={src}
+      alt={alt}
+      class="w-full h-auto rounded border border-border/50"
+      loading="lazy"
+    />
+  </div>
+  {sourceUrl && (
+    <div class="px-4 py-2 border-t border-border bg-paper-dark">
+      <a
+        href={sourceUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-xs font-sans text-blue-600 hover:text-blue-800 underline"
+      >
+        {t('factpack.viewSource')} &rarr;
+      </a>
+    </div>
+  )}
+</figure>

@@ -1,0 +1,45 @@
+---
+import type { Lang } from '../i18n/languages';
+import { useTranslations } from '../i18n/utils';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+
+interface Props {
+  lang: Lang;
+  translationKey?: string;
+}
+
+const { lang, translationKey } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<header class="border-b border-border bg-white/80 backdrop-blur-sm sticky top-0 z-50">
+  <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href={`/${lang}/`} class="flex items-center gap-2.5 no-underline group">
+      <svg class="w-7 h-7 text-ink" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+      </svg>
+      <span class="text-lg font-sans font-bold text-ink tracking-tight group-hover:text-ink/70 transition-colors">
+        {t('site.title')}
+      </span>
+    </a>
+    <div class="flex items-center gap-1 sm:gap-4">
+      <nav class="flex items-center gap-1 sm:gap-3">
+        <a
+          href={`/${lang}/`}
+          class="font-sans text-sm text-muted hover:text-ink transition-colors px-2 py-1 rounded"
+        >
+          {t('nav.home')}
+        </a>
+        <a
+          href={`/${lang}/about/`}
+          class="font-sans text-sm text-muted hover:text-ink transition-colors px-2 py-1 rounded"
+        >
+          {t('nav.about')}
+        </a>
+      </nav>
+      <div class="border-l border-border pl-3 ml-1">
+        <LanguageSwitcher lang={lang} translationKey={translationKey} />
+      </div>
+    </div>
+  </div>
+</header>

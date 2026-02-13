@@ -1,0 +1,66 @@
+---
+import type { Lang } from '../i18n/languages';
+import { useTranslations } from '../i18n/utils';
+import TagBadge from './TagBadge.astro';
+
+interface Props {
+  slug: string;
+  title: string;
+  summary: string;
+  verdict: string;
+  verdictSummary: string;
+  tags: string[];
+  publishedDate: Date;
+  lang: Lang;
+}
+
+const { slug, title, summary, verdict, verdictSummary, tags, publishedDate, lang } = Astro.props;
+const t = useTranslations(lang);
+
+const verdictColorMap: Record<string, string> = {
+  false: 'bg-verdict-false',
+  misleading: 'bg-verdict-misleading',
+  'missing-context': 'bg-verdict-missing-context',
+  mixed: 'bg-verdict-mixed',
+  true: 'bg-verdict-true',
+};
+
+const bgColor = verdictColorMap[verdict] || 'bg-muted';
+const dateStr = publishedDate.toLocaleDateString(lang === 'pt' ? 'pt-PT' : 'en-US', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+});
+---
+
+<article
+  class="factpack-card group border border-border rounded-lg bg-white hover:shadow-lg hover:border-border/80 transition-all duration-200 overflow-hidden"
+  data-tags={tags.join(',')}
+  data-title={title.toLowerCase()}
+  data-summary={summary.toLowerCase()}
+>
+  <a href={`/${lang}/facts/${slug}/`} class="block no-underline">
+    <div class="p-5 pb-4">
+      <div class="flex items-center gap-2 mb-3">
+        <span class={`${bgColor} text-white font-sans text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded`}>
+          {t(`verdict.${verdict}` as any)}
+        </span>
+        <span class="text-xs font-sans text-muted">{dateStr}</span>
+      </div>
+      <h3 class="text-lg font-sans font-bold text-ink mb-2 group-hover:text-blue-700 transition-colors leading-snug">
+        {title}
+      </h3>
+      <p class="text-sm text-muted leading-relaxed">
+        {summary}
+      </p>
+    </div>
+    <div class="flex flex-wrap gap-1.5 px-5 py-3 bg-paper-dark/50 border-t border-border/50">
+      {tags.map((tag) => (
+        <TagBadge tag={tag} lang={lang} />
+      ))}
+      <span class="ml-auto font-sans text-xs text-muted group-hover:text-blue-600 transition-colors self-center">
+        {lang === 'pt' ? 'Ler mais' : 'Read more'} &rarr;
+      </span>
+    </div>
+  </a>
+</article>

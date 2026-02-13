@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { useTranslations } from '../../i18n/utils';
+import type { Lang } from '../../i18n/languages';
+
+const lang: Lang = 'pt';
+const t = useTranslations(lang);
+---
+
+<BaseLayout
+  title="Sobre e Metodologia"
+  description="Como funciona o ParaOPovo: a nossa metodologia, sistema de vereditos e padrões editoriais."
+  lang={lang}
+  translationKey="about"
+>
+  <article class="max-w-3xl mx-auto px-4 py-12">
+    <h1 class="text-3xl md:text-4xl font-sans font-bold text-ink leading-tight mb-2">
+      Sobre e Metodologia
+    </h1>
+    <p class="text-lg text-muted font-sans mb-10">
+      Como trabalhamos, o que verificamos e como pode confirmar tudo por si.
+    </p>
+
+    <div class="prose prose-lg max-w-none
+      prose-headings:font-sans prose-headings:text-ink
+      prose-p:text-ink/85 prose-p:leading-relaxed
+      prose-a:text-blue-600 prose-a:underline hover:prose-a:text-blue-800
+      prose-strong:text-ink
+    ">
+      <h2>O Que É Isto</h2>
+      <p>
+        O ParaOPovo é um projeto de transparência. Pegamos em afirmações feitas por políticos e figuras públicas,
+        encontramos os documentos originais e colocamo-los lado a lado para que possa ver por si.
+      </p>
+      <p>
+        Não somos filiados em nenhum partido político. Não lhe dizemos em quem votar.
+        Mostramos-lhe os documentos e deixamos que tire as suas próprias conclusões.
+      </p>
+
+      <h2>A Nossa Metodologia</h2>
+      <p>Cada dossiê segue o mesmo processo:</p>
+      <ol>
+        <li><strong>Identificar a afirmação</strong> — Encontramos uma afirmação específica e verificável feita por uma figura pública. Não opiniões, não previsões — declarações sobre factos que podem ser verificados.</li>
+        <li><strong>Encontrar os documentos</strong> — Localizamos a fonte primária: registos parlamentares, votos oficiais, documentos governamentais, processos judiciais, bases de dados públicas. Não o que alguém disse sobre o assunto — o documento real.</li>
+        <li><strong>Mostrar ambos</strong> — Apresentamos a afirmação e o documento lado a lado. Incluímos capturas de ecrã dos documentos reais para que os possa ver sem sair da página.</li>
+        <li><strong>Atribuir um veredito</strong> — Com base no que os documentos mostram, classificamos a afirmação usando o nosso sistema de vereditos (ver abaixo).</li>
+        <li><strong>Ligar tudo</strong> — Cada fonte é ligada. Cada documento é acessível. Se errámos em algo, pode verificar.</li>
+      </ol>
+
+      <h2>Sistema de Vereditos</h2>
+      <p>Usamos cinco vereditos. Cada um significa algo específico:</p>
+    </div>
+
+    <!-- Verdict legend -->
+    <div class="my-8 space-y-3">
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-false text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Falso</span>
+        <p class="font-sans text-sm text-ink/80">A afirmação é demonstravelmente falsa. Os documentos contradizem diretamente o que foi dito.</p>
+      </div>
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-misleading text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Enganador</span>
+        <p class="font-sans text-sm text-ink/80">A afirmação contém alguma verdade mas distorce o contexto, omite informação chave ou cria uma falsa impressão.</p>
+      </div>
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-missing-context text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Falta Contexto</span>
+        <p class="font-sans text-sm text-ink/80">A afirmação é tecnicamente verdadeira mas criticamente incompleta. Sem o contexto em falta, cria uma impressão errada.</p>
+      </div>
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-mixed text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Misto</span>
+        <p class="font-sans text-sm text-ink/80">Partes da afirmação são verdadeiras e partes são falsas. A realidade é mais complicada do que o que foi dito.</p>
+      </div>
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-true text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Confirmado</span>
+        <p class="font-sans text-sm text-ink/80">A afirmação é correta. Os documentos apoiam o que foi dito. Incluímos estes para credibilidade — nem tudo é mentira.</p>
+      </div>
+    </div>
+
+    <div class="prose prose-lg max-w-none
+      prose-headings:font-sans prose-headings:text-ink
+      prose-p:text-ink/85 prose-p:leading-relaxed
+      prose-a:text-blue-600 prose-a:underline hover:prose-a:text-blue-800
+      prose-strong:text-ink
+    ">
+      <h2>Padrões Editoriais</h2>
+      <ul>
+        <li><strong>Apenas fontes primárias.</strong> Ligamos ao documento real, não à interpretação de outra pessoa.</li>
+        <li><strong>Sem afirmações anónimas.</strong> Cada dossiê identifica quem disse o quê e quando.</li>
+        <li><strong>Correções são públicas.</strong> Se errarmos em algo, atualizamos o dossiê e anotamos a revisão.</li>
+        <li><strong>Sem ideologia.</strong> Verificamos afirmações de todos os lados. Se um político diz a verdade, dizemo-lo.</li>
+        <li><strong>Verificável.</strong> Cada fonte é ligada. Nunca deveria ter de confiar apenas na nossa palavra.</li>
+      </ul>
+
+      <h2>Quem Somos</h2>
+      <p>
+        O ParaOPovo é um projeto aberto e voluntário. Acreditamos que a democracia funciona melhor
+        quando os cidadãos conseguem facilmente verificar o que os seus representantes realmente fazem — não apenas o que dizem.
+      </p>
+      <p>
+        Não somos financiados por nenhum partido político, governo ou empresa. O site é de código aberto
+        e gratuito. Pode partilhar qualquer um dos nossos dossiês.
+      </p>
+
+      <h2>Contacto</h2>
+      <p>
+        Encontrou um erro? Tem uma afirmação que quer que verifiquemos? Quer contribuir?
+        Contacte-nos em <strong>hello@forthepeople.org</strong>.
+      </p>
+    </div>
+  </article>
+</BaseLayout>
