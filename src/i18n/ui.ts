@@ -69,6 +69,8 @@ export const ui = {
     'footer.viewCode': 'View Code on GitHub',
     'footer.disclaimer': 'Not affiliated with FactCheck.org, SourceWatch, or any political party.',
     'footer.selfFunded': 'Self-funded. No political donations. No corporate sponsors.',
+    'footer.support': 'Support this project',
+    'footer.newsletter': 'Subscribe to newsletter',
 
     // Misc
     'language.switch': 'Português',
@@ -144,6 +146,8 @@ export const ui = {
     'footer.viewCode': 'Ver Código no GitHub',
     'footer.disclaimer': 'Sem afiliação ao FactCheck.org, SourceWatch, ou qualquer partido político.',
     'footer.selfFunded': 'Autofinanciado. Sem doações políticas. Sem patrocinadores empresariais.',
+    'footer.support': 'Apoiar este projeto',
+    'footer.newsletter': 'Subscrever newsletter',
 
     // Misc
     'language.switch': 'English',
