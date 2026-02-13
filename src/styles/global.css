@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  /* Newspaper-style muted palette */
+  --color-ink: #1a1a1a;
+  --color-paper: #faf9f6;
+  --color-paper-dark: #f0efe9;
+  --color-muted: #6b7280;
+  --color-border: #d4d0c8;
+
+  /* Verdict colors */
+  --color-verdict-false: #dc2626;
+  --color-verdict-misleading: #d97706;
+  --color-verdict-missing-context: #2563eb;
+  --color-verdict-mixed: #7c3aed;
+  --color-verdict-true: #16a34a;
+
+  /* Fonts */
+  --font-serif: "Merriweather", "Georgia", serif;
+  --font-sans: "Inter", "system-ui", sans-serif;
+}
+
+body {
+  font-family: var(--font-serif);
+  color: var(--color-ink);
+  background-color: var(--color-paper);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+}

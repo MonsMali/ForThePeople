@@ -1,0 +1,23 @@
+---
+import { languages, type Lang } from '../i18n/languages';
+import { useTranslations, getLocalizedPath } from '../i18n/utils';
+
+interface Props {
+  lang: Lang;
+  translationKey?: string;
+}
+
+const { lang, translationKey } = Astro.props;
+const t = useTranslations(lang);
+const otherLang = lang === 'en' ? 'pt' : 'en';
+const otherPath = getLocalizedPath(Astro.url.pathname, otherLang);
+---
+
+<a
+  href={otherPath}
+  class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md border border-border bg-white font-sans text-sm text-muted hover:text-ink hover:border-ink/30 transition-colors no-underline"
+  title={languages[otherLang]}
+>
+  <span class="font-mono text-xs font-bold uppercase">{otherLang.toUpperCase()}</span>
+  <span>{t('language.switch')}</span>
+</a>

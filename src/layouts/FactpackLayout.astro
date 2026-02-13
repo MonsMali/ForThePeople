@@ -1,0 +1,127 @@
+---
+import type { Lang } from '../i18n/languages';
+import { useTranslations } from '../i18n/utils';
+import BaseLayout from './BaseLayout.astro';
+import VerdictBanner from '../components/VerdictBanner.astro';
+import SourceList from '../components/SourceList.astro';
+import ShareButtons from '../components/ShareButtons.astro';
+import TagBadge from '../components/TagBadge.astro';
+
+interface Source {
+  label: string;
+  url: string;
+  evidenceImage?: string;
+}
+
+interface Props {
+  title: string;
+  summary: string;
+  claim: string;
+  verdict: 'false' | 'misleading' | 'missing-context' | 'mixed' | 'true';
+  verdictSummary: string;
+  tags: string[];
+  publishedDate: Date;
+  lastUpdated?: Date;
+  revisionNote?: string;
+  sources: Source[];
+  translationKey: string;
+  ogImage?: string;
+  draft?: boolean;
+  lang: Lang;
+}
+
+const {
+  title,
+  summary,
+  claim,
+  verdict,
+  verdictSummary,
+  tags,
+  publishedDate,
+  lastUpdated,
+  revisionNote,
+  sources,
+  translationKey,
+  ogImage,
+  draft,
+  lang,
+} = Astro.props;
+
+const t = useTranslations(lang);
+const pageUrl = Astro.url.href;
+const ogUrl = ogImage || (Astro.site ? new URL(`/og/${translationKey}-${lang}.png`, Astro.site).href : '');
+
+const dateOpts: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+const locale = lang === 'pt' ? 'pt-PT' : 'en-US';
+---
+
+<BaseLayout
+  title={title}
+  description={summary}
+  lang={lang}
+  ogImage={ogUrl}
+  translationKey={translationKey}
+  claim={claim}
+  verdict={verdict}
+  verdictSummary={verdictSummary}
+  publishedDate={publishedDate}
+  lastUpdated={lastUpdated}
+  sources={sources}
+>
+  <article class="max-w-3xl mx-auto px-4 py-8">
+    {draft && (
+      <div class="bg-yellow-50 border border-yellow-200 rounded-lg px-4 py-3 mb-6">
+        <p class="font-sans text-sm text-yellow-800">{t('draft.notice')}</p>
+      </div>
+    )}
+
+    <header class="mb-8">
+      <h1 class="text-3xl md:text-4xl font-sans font-bold text-ink leading-tight mb-4">
+        {title}
+      </h1>
+      <div class="flex flex-wrap items-center gap-3 text-sm font-sans text-muted mb-4">
+        <time datetime={publishedDate.toISOString()}>
+          {t('factpack.published')}: {publishedDate.toLocaleDateString(locale, dateOpts)}
+        </time>
+        {lastUpdated && (
+          <span>
+            &middot; {t('factpack.updated')}: {lastUpdated.toLocaleDateString(locale, dateOpts)}
+          </span>
+        )}
+      </div>
+      <div class="flex flex-wrap gap-1.5">
+        {tags.map((tag) => (
+          <TagBadge tag={tag} lang={lang} />
+        ))}
+      </div>
+    </header>
+
+    <VerdictBanner
+      claim={claim}
+      verdict={verdict}
+      verdictSummary={verdictSummary}
+      lang={lang}
+    />
+
+    <div class="prose prose-lg max-w-none
+      prose-headings:font-sans prose-headings:text-ink
+      prose-p:text-ink/85 prose-p:leading-relaxed
+      prose-a:text-blue-600 prose-a:underline hover:prose-a:text-blue-800
+      prose-strong:text-ink prose-strong:font-bold
+      prose-blockquote:border-l-4 prose-blockquote:border-border prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-muted
+      prose-table:border-collapse prose-th:bg-paper-dark prose-th:border prose-th:border-border prose-th:px-4 prose-th:py-2 prose-th:text-left prose-th:font-sans prose-th:text-sm
+      prose-td:border prose-td:border-border prose-td:px-4 prose-td:py-2 prose-td:text-sm
+    ">
+      <slot />
+    </div>
+
+    <SourceList sources={sources} lang={lang} />
+
+    <ShareButtons
+      url={pageUrl}
+      title={title}
+      ogImageUrl={ogUrl}
+      lang={lang}
+    />
+  </article>
+</BaseLayout>

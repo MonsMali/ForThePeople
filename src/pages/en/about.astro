@@ -1,0 +1,214 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { useTranslations } from '../../i18n/utils';
+import type { Lang } from '../../i18n/languages';
+
+const lang: Lang = 'en';
+const t = useTranslations(lang);
+---
+
+<BaseLayout
+  title="About & Methodology"
+  description="Who built ForThePeople, how it works, our methodology, funding transparency, and editorial standards."
+  lang={lang}
+  translationKey="about"
+>
+  <article class="max-w-3xl mx-auto px-4 py-12">
+    <h1 class="text-3xl md:text-4xl font-sans font-bold text-ink leading-tight mb-2">
+      About & Methodology
+    </h1>
+    <p class="text-lg text-muted font-sans mb-10">
+      Who built this, how it works, and how you can verify everything yourself.
+    </p>
+
+    <!-- Who Built This -->
+    <div class="prose prose-lg max-w-none
+      prose-headings:font-sans prose-headings:text-ink
+      prose-p:text-ink/85 prose-p:leading-relaxed
+      prose-a:text-blue-600 prose-a:underline hover:prose-a:text-blue-800
+      prose-strong:text-ink
+    ">
+      <h2>Who Built This</h2>
+      <p>
+        Hi, I'm <strong>Lu&iacute;s Concei&ccedil;&atilde;o</strong>. I'm an AI Tech Specialist based in Portugal.
+      </p>
+      <p>
+        I built this tool because I was tired of seeing my friends get manipulated by
+        fake prints in WhatsApp groups. Screenshots with no source. Claims with no documents.
+        Outrage with no evidence. I figured: if I can build software that puts the actual
+        documents next to the claims, maybe people can decide for themselves instead of being
+        told what to think.
+      </p>
+      <p>
+        This isn't paid by anyone. It's just code.
+      </p>
+    </div>
+
+    <!-- Funding & Independence -->
+    <div class="my-10 p-6 rounded-lg border-2 border-verdict-true/30 bg-verdict-true/5">
+      <h2 class="font-sans font-bold text-ink text-xl mb-4">Funding & Independence</h2>
+      <div class="space-y-3 font-sans text-sm text-ink/85">
+        <div class="flex items-start gap-3">
+          <span class="flex-shrink-0 text-verdict-true text-lg leading-none mt-0.5">&#10003;</span>
+          <p><strong>Self-funded.</strong> The total cost of this project is the domain name ($10). Hosting is free tier. There are no operating costs beyond my time.</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <span class="flex-shrink-0 text-verdict-true text-lg leading-none mt-0.5">&#10003;</span>
+          <p><strong>No political donations.</strong> This project accepts no money from any political party, campaign, PAC, or politically affiliated organization.</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <span class="flex-shrink-0 text-verdict-true text-lg leading-none mt-0.5">&#10003;</span>
+          <p><strong>No corporate sponsors.</strong> No company funds, influences, or has editorial control over this project.</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <span class="flex-shrink-0 text-verdict-true text-lg leading-none mt-0.5">&#10003;</span>
+          <p><strong>Open source.</strong> The entire codebase and data history is public. You can audit everything: <a href="https://github.com/MonsMali/ForThePeople" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline hover:text-blue-800">View Code on GitHub</a>.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="prose prose-lg max-w-none
+      prose-headings:font-sans prose-headings:text-ink
+      prose-p:text-ink/85 prose-p:leading-relaxed
+      prose-a:text-blue-600 prose-a:underline hover:prose-a:text-blue-800
+      prose-strong:text-ink
+    ">
+      <h2>What This Is</h2>
+      <p>
+        ForThePeople is a transparency project. We take claims made by politicians and public figures,
+        find the original documents, and put them side by side so you can see for yourself.
+      </p>
+      <p>
+        We are not affiliated with any political party. We don't tell you who to vote for.
+        We show you the documents and let you make up your own mind.
+      </p>
+
+      <h2 id="methodology">Our Methodology</h2>
+      <p>Every fact-pack follows the same process:</p>
+      <ol>
+        <li><strong>Identify the claim</strong> &mdash; We find a specific, verifiable claim made by a public figure. Not opinions, not predictions &mdash; statements about facts that can be checked.</li>
+        <li><strong>Find the documents</strong> &mdash; We locate the primary source: parliamentary records, official votes, government documents, court filings, public databases. Not what someone said about it &mdash; the actual document.</li>
+        <li><strong>Show both</strong> &mdash; We present the claim and the document side by side. We include screenshots of the actual documents so you can see them without leaving the page.</li>
+        <li><strong>Assign a verdict</strong> &mdash; Based on what the documents show, we rate the claim using our verdict system (see below).</li>
+        <li><strong>Link everything</strong> &mdash; Every source is linked. Every document is accessible. If we got something wrong, you can check.</li>
+      </ol>
+
+      <h3>How We Select Claims</h3>
+      <p>We prioritize claims that are:</p>
+      <ul>
+        <li><strong>Specific and verifiable</strong> &mdash; statements about facts, not opinions or predictions</li>
+        <li><strong>Widely shared</strong> &mdash; claims that are circulating on social media, WhatsApp, or in mainstream discourse</li>
+        <li><strong>Consequential</strong> &mdash; claims that affect how people vote, what they believe about their country, or how they view other groups</li>
+        <li><strong>From any political side</strong> &mdash; we check claims from all parties and public figures, not just one</li>
+      </ul>
+
+      <h3>Our Correction Policy</h3>
+      <p>
+        If we get something wrong, we fix it publicly. Every correction is noted with a revision date
+        and explanation of what changed. We do not silently edit fact-packs. Our Git history is public &mdash;
+        you can see every change ever made to every article.
+      </p>
+
+      <h2>Verdict System</h2>
+      <p>We use five verdicts. Each one means something specific:</p>
+    </div>
+
+    <!-- Verdict legend -->
+    <div class="my-8 space-y-3">
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-false text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">False</span>
+        <p class="font-sans text-sm text-ink/80">The claim is demonstrably untrue. The documents directly contradict what was said.</p>
+      </div>
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-misleading text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Misleading</span>
+        <p class="font-sans text-sm text-ink/80">The claim contains some truth but distorts the context, omits key information, or creates a false impression.</p>
+      </div>
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-missing-context text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Missing Context</span>
+        <p class="font-sans text-sm text-ink/80">The claim is technically true but critically incomplete. Without the missing context, it creates a wrong impression.</p>
+      </div>
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-mixed text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Mixed</span>
+        <p class="font-sans text-sm text-ink/80">Parts of the claim are true and parts are false. The reality is more complicated than what was said.</p>
+      </div>
+      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 bg-verdict-true text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Confirmed</span>
+        <p class="font-sans text-sm text-ink/80">The claim is accurate. The documents support what was said. We include these for credibility &mdash; not everything is a lie.</p>
+      </div>
+    </div>
+
+    <div class="prose prose-lg max-w-none
+      prose-headings:font-sans prose-headings:text-ink
+      prose-p:text-ink/85 prose-p:leading-relaxed
+      prose-a:text-blue-600 prose-a:underline hover:prose-a:text-blue-800
+      prose-strong:text-ink
+    ">
+      <h2>Editorial Standards</h2>
+      <ul>
+        <li><strong>Primary sources only.</strong> We link to the actual document, not someone else's interpretation of it.</li>
+        <li><strong>No anonymous claims.</strong> Every fact-pack identifies who said what and when.</li>
+        <li><strong>Corrections are public.</strong> If we get something wrong, we update the fact-pack and note the revision.</li>
+        <li><strong>No ideology.</strong> We check claims from all sides. If a politician tells the truth, we say so.</li>
+        <li><strong>Verifiable.</strong> Every source is linked. You should never have to take our word for it.</li>
+      </ul>
+
+      <h2>IFCN Code of Principles</h2>
+      <p>
+        We adhere to the principles of the <a href="https://ifcncodeofprinciples.poynter.org/" target="_blank" rel="noopener noreferrer">International Fact-Checking Network (IFCN) Code of Principles</a>,
+        even though we are not yet a certified signatory. Here is how we meet each principle:
+      </p>
+    </div>
+
+    <!-- IFCN Principles -->
+    <div class="my-8 space-y-3">
+      <div class="p-4 rounded-lg border border-border bg-white">
+        <p class="font-sans text-sm font-bold text-ink mb-1">1. Non-partisanship and Fairness</p>
+        <p class="font-sans text-sm text-ink/80">We check claims from all political parties and public figures. We publish "Confirmed" verdicts when claims are true, regardless of who said them.</p>
+      </div>
+      <div class="p-4 rounded-lg border border-border bg-white">
+        <p class="font-sans text-sm font-bold text-ink mb-1">2. Transparency of Sources</p>
+        <p class="font-sans text-sm text-ink/80">Every fact-pack links to the primary source documents. We include screenshots and direct URLs so readers can verify independently.</p>
+      </div>
+      <div class="p-4 rounded-lg border border-border bg-white">
+        <p class="font-sans text-sm font-bold text-ink mb-1">3. Transparency of Funding & Organization</p>
+        <p class="font-sans text-sm text-ink/80">This project is built by Lu&iacute;s Concei&ccedil;&atilde;o, self-funded (domain: $10, hosting: free tier). No political or corporate funding. Full details above.</p>
+      </div>
+      <div class="p-4 rounded-lg border border-border bg-white">
+        <p class="font-sans text-sm font-bold text-ink mb-1">4. Transparency of Methodology</p>
+        <p class="font-sans text-sm text-ink/80">Our 5-step process is documented above. The codebase is open source. Every edit is tracked in our public Git history.</p>
+      </div>
+      <div class="p-4 rounded-lg border border-border bg-white">
+        <p class="font-sans text-sm font-bold text-ink mb-1">5. Open & Honest Corrections</p>
+        <p class="font-sans text-sm text-ink/80">Corrections are made publicly with revision notes. We never silently edit. Our full edit history is visible on GitHub.</p>
+      </div>
+    </div>
+
+    <div class="prose prose-lg max-w-none
+      prose-headings:font-sans prose-headings:text-ink
+      prose-p:text-ink/85 prose-p:leading-relaxed
+      prose-a:text-blue-600 prose-a:underline hover:prose-a:text-blue-800
+      prose-strong:text-ink
+    ">
+      <h2>Open Source</h2>
+      <p>
+        Disinformation sites are black boxes. This project is a glass box.
+      </p>
+      <p>
+        The entire platform &mdash; code, data, and article history &mdash; is open source on GitHub.
+        You can audit our code, review every edit to every fact-pack, and verify that we practice
+        what we preach. If you find an error, you can open an issue or submit a correction.
+      </p>
+      <p>
+        <a href="https://github.com/MonsMali/ForThePeople" target="_blank" rel="noopener noreferrer">
+          github.com/MonsMali/ForThePeople &rarr;
+        </a>
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Found an error? Have a claim you want us to check? Want to contribute?
+        Reach us at <strong>hello@forthepeople.org</strong>.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

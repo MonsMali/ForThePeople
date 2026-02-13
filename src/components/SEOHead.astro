@@ -1,0 +1,141 @@
+---
+import type { Lang } from '../i18n/languages';
+import { useTranslations, getLocalizedPath } from '../i18n/utils';
+
+interface Source {
+  label: string;
+  url: string;
+  evidenceImage?: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  lang: Lang;
+  canonicalUrl?: string;
+  ogImage?: string;
+  translationKey?: string;
+  // ClaimReview fields
+  claim?: string;
+  verdict?: string;
+  verdictSummary?: string;
+  publishedDate?: Date;
+  lastUpdated?: Date;
+  sources?: Source[];
+}
+
+const {
+  title,
+  description,
+  lang,
+  canonicalUrl,
+  ogImage,
+  translationKey,
+  claim,
+  verdict,
+  verdictSummary,
+  publishedDate,
+  lastUpdated,
+  sources,
+} = Astro.props;
+
+const t = useTranslations(lang);
+const siteTitle = t('site.title');
+const fullTitle = title === siteTitle ? title : `${title} | ${siteTitle}`;
+
+const currentUrl = canonicalUrl || Astro.url.href;
+const ogImageUrl = ogImage || (Astro.site ? new URL('/og/default.png', Astro.site).href : '');
+
+const otherLang = lang === 'en' ? 'pt' : 'en';
+const otherLangPath = translationKey
+  ? getLocalizedPath(Astro.url.pathname, otherLang)
+  : null;
+
+// Map verdicts to ClaimReview alternateName values
+const verdictToRating: Record<string, { ratingValue: number; alternateName: string }> = {
+  false: { ratingValue: 1, alternateName: 'False' },
+  misleading: { ratingValue: 2, alternateName: 'Misleading' },
+  'missing-context': { ratingValue: 2, alternateName: 'Missing Context' },
+  mixed: { ratingValue: 3, alternateName: 'Mixed' },
+  true: { ratingValue: 5, alternateName: 'True' },
+};
+
+const claimReview = claim && verdict
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'ClaimReview',
+      url: currentUrl,
+      claimReviewed: claim,
+      author: {
+        '@type': 'Organization',
+        name: siteTitle,
+        url: Astro.site?.href,
+      },
+      datePublished: publishedDate?.toISOString().split('T')[0],
+      ...(lastUpdated && { dateModified: lastUpdated.toISOString().split('T')[0] }),
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: verdictToRating[verdict]?.ratingValue ?? 3,
+        bestRating: 5,
+        worstRating: 1,
+        alternateName: verdictToRating[verdict]?.alternateName ?? verdict,
+      },
+      itemReviewed: {
+        '@type': 'Claim',
+        name: claim,
+        ...(sources?.length && {
+          appearance: sources.map((s) => ({
+            '@type': 'CreativeWork',
+            name: s.label,
+            url: s.url,
+          })),
+        }),
+      },
+    }
+  : null;
+---
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={currentUrl} />
+
+<!-- Language alternates -->
+<link rel="alternate" hreflang={lang} href={currentUrl} />
+{otherLangPath && (
+  <link
+    rel="alternate"
+    hreflang={otherLang}
+    href={new URL(otherLangPath, Astro.site).href}
+  />
+)}
+
+<!-- Open Graph -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={currentUrl} />
+<meta property="og:locale" content={lang === 'pt' ? 'pt_PT' : 'en_US'} />
+{ogImage && <meta property="og:image" content={ogImageUrl} />}
+{ogImage && <meta property="og:image:width" content="1200" />}
+{ogImage && <meta property="og:image:height" content="630" />}
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={fullTitle} />
+<meta name="twitter:description" content={description} />
+{ogImage && <meta name="twitter:image" content={ogImageUrl} />}
+
+<!-- ClaimReview JSON-LD -->
+{claimReview && (
+  <script type="application/ld+json" set:html={JSON.stringify(claimReview)} />
+)}
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap"
+  rel="stylesheet"
+/>

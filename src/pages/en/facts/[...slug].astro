@@ -1,0 +1,37 @@
+---
+import { getCollection, render } from 'astro:content';
+import FactpackLayout from '../../../layouts/FactpackLayout.astro';
+import type { Lang } from '../../../i18n/languages';
+
+const lang: Lang = 'en';
+
+export async function getStaticPaths() {
+  const factpacks = await getCollection('factpacks_en');
+  return factpacks.map((fp) => ({
+    params: { slug: fp.id },
+    props: { entry: fp },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<FactpackLayout
+  title={entry.data.title}
+  summary={entry.data.summary}
+  claim={entry.data.claim}
+  verdict={entry.data.verdict}
+  verdictSummary={entry.data.verdictSummary}
+  tags={entry.data.tags}
+  publishedDate={entry.data.publishedDate}
+  lastUpdated={entry.data.lastUpdated}
+  revisionNote={entry.data.revisionNote}
+  sources={entry.data.sources}
+  translationKey={entry.data.translationKey}
+  ogImage={entry.data.ogImage}
+  draft={entry.data.draft}
+  lang={lang}
+>
+  <Content />
+</FactpackLayout>
