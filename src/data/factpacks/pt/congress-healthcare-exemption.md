@@ -6,7 +6,7 @@ claim: "Os membros do Congresso isentaram-se do Affordable Care Act"
 verdict: "false"
 verdictSummary: "O ACA exige especificamente que membros do Congresso e o seu pessoal adquiram seguro através das bolsas do ACA. Não estão isentos."
 tags: ["healthcare", "usa", "broken-promises"]
-publishedDate: 2026-01-28
+publishedDate: 2026-02-13
 sources:
   - label: "Affordable Care Act, Secção 1312(d)(3)(D) — Requisito de cobertura do Congresso"
     url: "https://www.congress.gov/bill/111th-congress/house-bill/3590"

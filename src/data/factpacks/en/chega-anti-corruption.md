@@ -6,7 +6,7 @@ claim: "Chega is the only clean, anti-corruption party that fights for ordinary 
 verdict: "mixed"
 verdictSummary: "Chega has raised legitimate corruption concerns about other parties. But their own record includes opaque funding questions, internal disciplinary scandals, and expelled members — making the 'uniquely clean' claim unsupported."
 tags: ["corruption", "portugal", "broken-promises", "rhetoric"]
-publishedDate: 2026-02-12
+publishedDate: 2026-02-13
 sources:
   - label: "ECFP — Entidade das Contas e Financiamentos Políticos, Party Funding Reports 2023-2024"
     url: "https://www.tribunalconstitucional.pt/tc/contas-ecfp.html"

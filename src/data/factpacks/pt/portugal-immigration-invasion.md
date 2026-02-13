@@ -6,7 +6,7 @@ claim: "Portugal está a ser invadido por imigrantes e o país está a perder o 
 verdict: "misleading"
 verdictSummary: "A imigração para Portugal aumentou significativamente, mas o enquadramento como 'invasão' não corresponde à escala nem ao contexto. A população nascida no estrangeiro em Portugal permanece abaixo da média da UE, e os problemas estruturais atribuídos aos imigrantes são anteriores ao aumento migratório."
 tags: ["immigration", "portugal", "economy", "rhetoric"]
-publishedDate: 2026-02-12
+publishedDate: 2026-02-13
 sources:
   - label: "Eurostat — População Nascida no Estrangeiro em % do Total, Estados-Membros da UE 2024"
     url: "https://ec.europa.eu/eurostat/web/migration-asylum"

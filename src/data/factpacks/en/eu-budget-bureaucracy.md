@@ -6,7 +6,7 @@ claim: "The European Union spends 60% of its budget on bureaucracy and administr
 verdict: "false"
 verdictSummary: "EU administration costs are approximately 6% of the total budget. The largest share goes to agriculture and regional development."
 tags: ["economy", "portugal", "rhetoric"]
-publishedDate: 2026-02-01
+publishedDate: 2026-02-13
 sources:
   - label: "EU Multiannual Financial Framework 2021-2027, Official Journal"
     url: "https://commission.europa.eu/strategy-and-policy/eu-budget/long-term-eu-budget/2021-2027_en"

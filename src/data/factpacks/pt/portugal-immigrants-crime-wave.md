@@ -6,7 +6,7 @@ claim: "Os estrangeiros representam 20-30% da população prisional e a imigraç
 verdict: "misleading"
 verdictSummary: "Os dados oficiais da DGRSP mostram que ~17% dos reclusos são estrangeiros — não 20-30%. A criminalidade global diminuiu enquanto a imigração aumentou. Os números são selecionados para criar uma impressão falsa."
 tags: ["immigration", "portugal", "public-safety", "rhetoric"]
-publishedDate: 2026-02-12
+publishedDate: 2026-02-13
 sources:
   - label: "DGRSP — Estatísticas Prisionais 2024, Direção-Geral de Reinserção e Serviços Prisionais"
     url: "https://dgrsp.justica.gov.pt/Estat%C3%ADsticas-e-indicadores"

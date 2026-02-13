@@ -6,7 +6,7 @@ claim: "Portugal is being invaded by immigrants and the country is losing contro
 verdict: "misleading"
 verdictSummary: "Immigration to Portugal has increased significantly, but the framing as an 'invasion' does not match the scale or context. Portugal's foreign-born population remains below the EU average, and the structural problems blamed on immigrants predate the migration increase."
 tags: ["immigration", "portugal", "economy", "rhetoric"]
-publishedDate: 2026-02-12
+publishedDate: 2026-02-13
 sources:
   - label: "Eurostat — Foreign-Born Population as % of Total, EU Member States 2024"
     url: "https://ec.europa.eu/eurostat/web/migration-asylum"

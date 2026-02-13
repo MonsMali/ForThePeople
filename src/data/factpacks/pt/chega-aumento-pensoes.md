@@ -6,7 +6,7 @@ claim: "André Ventura afirmou que a proposta do Chega para aumentar as pensões
 verdict: "true"
 verdictSummary: "Os cálculos orçamentais independentes confirmam que o impacto financeiro rondaria os 4-5% da despesa total da Segurança Social, tornando a medida financeiramente possível, embora exigisse opções políticas de corte noutras áreas."
 tags: ["social-security", "chega", "budget"]
-publishedDate: 2026-02-14
+publishedDate: 2026-02-13
 sources:
   - label: "Proposta de Alteração ao OE 2025 (Grupo Parlamentar Chega)"
     url: "https://www.parlamento.pt/OrcamentoEstado/2025"

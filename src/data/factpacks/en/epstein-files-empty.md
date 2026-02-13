@@ -6,7 +6,7 @@ claim: "The Epstein files are empty — there's nothing new in them"
 verdict: "misleading"
 verdictSummary: "Some documents were released, but millions remain unreleased or heavily redacted. Calling the files 'empty' ignores both what has been revealed and what is still being withheld."
 tags: ["justice", "usa", "rhetoric"]
-publishedDate: 2026-02-12
+publishedDate: 2026-02-13
 sources:
   - label: "Epstein Records Transparency Act — Public Law 118-299, Signed December 2024"
     url: "https://www.congress.gov/bill/118th-congress/senate-bill/4894"

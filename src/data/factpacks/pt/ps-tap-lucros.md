@@ -6,7 +6,7 @@ claim: "Pedro Nuno Santos afirma que a TAP e a CP deram lucro sob gestão públi
 verdict: "missing-context"
 verdictSummary: "Verdade que apresentaram lucro operacional em 2023, mas a afirmação omite o custo histórico de 3,2 mil milhões de euros em ajudas de estado que nunca serão recuperados."
 tags: ["economy", "ps", "transport"]
-publishedDate: 2026-02-14
+publishedDate: 2026-02-13
 sources:
   - label: "Relatório e Contas TAP 2023 (Pág. 14 - Resultados Líquidos)"
     url: "https://www.tapairportugal.com/relatorios/2023"

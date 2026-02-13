@@ -6,7 +6,7 @@ claim: "Crime in Portugal has doubled due to increased immigration"
 verdict: "false"
 verdictSummary: "Portugal's overall crime rate decreased by 12% between 2019-2024 according to RASI data, during a period of significant immigration growth."
 tags: ["immigration", "portugal", "public-safety"]
-publishedDate: 2026-02-05
+publishedDate: 2026-02-13
 sources:
   - label: "RASI 2024 — Relatório Anual de Segurança Interna"
     url: "https://www.portugal.gov.pt"

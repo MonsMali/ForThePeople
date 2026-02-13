@@ -6,7 +6,7 @@ claim: "Pedro Nuno Santos claims that TAP and CP turned a profit under public ma
 verdict: "missing-context"
 verdictSummary: "True that they posted an operating profit in 2023, but the claim omits the historic cost of 3.2 billion euros in state aid that will never be recovered."
 tags: ["economy", "ps", "transport"]
-publishedDate: 2026-02-14
+publishedDate: 2026-02-13
 sources:
   - label: "TAP Annual Report 2023 (Page 14 - Net Results)"
     url: "https://www.tapairportugal.com/relatorios/2023"

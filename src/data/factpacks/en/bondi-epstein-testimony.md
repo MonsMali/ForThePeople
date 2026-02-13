@@ -6,11 +6,9 @@ claim: "Pam Bondi testified that there was no evidence to prosecute Jeffrey Epst
 verdict: "misleading"
 verdictSummary: "Bondi used 'no prosecutable evidence' — a legal standard far higher than 'no evidence.' The distinction matters."
 tags: ["justice", "usa", "rhetoric"]
-publishedDate: 2026-01-20
-lastUpdated: 2026-02-10
-revisionNote: "Added DOJ prosecution guidelines reference"
+publishedDate: 2026-02-13
 sources:
-  - label: "House Judiciary Committee Hearing Transcript, Jan 2025"
+  - label: "Senate Judiciary Committee Hearing Transcript, Feb 11 2026"
     url: "https://www.judiciary.senate.gov/committee-activity/hearings"
     evidenceImage: "/evidence/bondi-transcript-p45.png"
   - label: "DOJ Justice Manual, Section 9-27.220 — Prosecution Guidelines"

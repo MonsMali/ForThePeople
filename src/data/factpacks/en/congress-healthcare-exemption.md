@@ -6,7 +6,7 @@ claim: "Members of Congress exempted themselves from the Affordable Care Act"
 verdict: "false"
 verdictSummary: "The ACA specifically requires members of Congress and their staff to purchase insurance through the ACA exchanges. They are not exempt."
 tags: ["healthcare", "usa", "broken-promises"]
-publishedDate: 2026-01-28
+publishedDate: 2026-02-13
 sources:
   - label: "Affordable Care Act, Section 1312(d)(3)(D) — Congressional coverage requirement"
     url: "https://www.congress.gov/bill/111th-congress/house-bill/3590"

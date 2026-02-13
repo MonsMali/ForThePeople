@@ -6,7 +6,7 @@ claim: "Os ficheiros Epstein estão vazios — não há nada de novo neles"
 verdict: "misleading"
 verdictSummary: "Alguns documentos foram divulgados, mas milhões permanecem por divulgar ou fortemente censurados. Chamar 'vazios' aos ficheiros ignora tanto o que foi revelado como o que continua a ser ocultado."
 tags: ["justice", "usa", "rhetoric"]
-publishedDate: 2026-02-12
+publishedDate: 2026-02-13
 sources:
   - label: "Epstein Records Transparency Act — Lei Pública 118-299, Assinada em Dezembro de 2024"
     url: "https://www.congress.gov/bill/118th-congress/senate-bill/4894"

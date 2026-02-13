@@ -6,7 +6,7 @@ claim: "Most European NATO members refuse to meet their defense spending obligat
 verdict: "missing-context"
 verdictSummary: "The 2% GDP target was a non-binding pledge set for 2024. By 2024, 23 of 32 members met or approached the target — up from just 3 in 2014. The framing of 'refusal' omits a decade of steady increases."
 tags: ["economy", "rhetoric", "public-safety"]
-publishedDate: 2026-02-10
+publishedDate: 2026-02-13
 sources:
   - label: "NATO Defence Expenditure Report 2024 — Secretary General Annual Report"
     url: "https://www.nato.int/cps/en/natohq/topics_49198.htm"

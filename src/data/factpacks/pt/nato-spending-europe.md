@@ -6,7 +6,7 @@ claim: "A maioria dos membros europeus da NATO recusa cumprir as suas obrigaçõ
 verdict: "missing-context"
 verdictSummary: "A meta de 2% do PIB era um compromisso não vinculativo definido para 2024. Em 2024, 23 de 32 membros atingiram ou aproximaram-se da meta — contra apenas 3 em 2014. A narrativa de 'recusa' omite uma década de aumentos constantes."
 tags: ["economy", "rhetoric", "public-safety"]
-publishedDate: 2026-02-10
+publishedDate: 2026-02-13
 sources:
   - label: "Relatório de Despesas de Defesa da NATO 2024 — Relatório Anual do Secretário-Geral"
     url: "https://www.nato.int/cps/en/natohq/topics_49198.htm"

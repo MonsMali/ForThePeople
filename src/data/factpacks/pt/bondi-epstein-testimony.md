@@ -6,11 +6,9 @@ claim: "Pam Bondi testemunhou que não havia provas para processar Jeffrey Epste
 verdict: "misleading"
 verdictSummary: "Bondi usou 'sem prova processável' — um padrão legal muito mais elevado que 'sem prova.' A distinção importa."
 tags: ["justice", "usa", "rhetoric"]
-publishedDate: 2026-01-20
-lastUpdated: 2026-02-10
-revisionNote: "Adicionada referência às diretrizes de acusação do DOJ"
+publishedDate: 2026-02-13
 sources:
-  - label: "Transcrição da Audiência do Comité Judiciário do Senado, Jan 2025"
+  - label: "Transcrição da Audiência do Comité Judiciário do Senado, 11 Fev 2026"
     url: "https://www.judiciary.senate.gov/committee-activity/hearings"
     evidenceImage: "/evidence/bondi-transcript-p45.png"
   - label: "Manual de Justiça do DOJ, Secção 9-27.220 — Diretrizes de Acusação"

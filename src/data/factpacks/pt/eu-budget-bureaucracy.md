@@ -6,7 +6,7 @@ claim: "A União Europeia gasta 60% do seu orçamento em burocracia e administra
 verdict: "false"
 verdictSummary: "Os custos administrativos da UE são aproximadamente 6% do orçamento total. A maior fatia vai para agricultura e desenvolvimento regional."
 tags: ["economy", "portugal", "rhetoric"]
-publishedDate: 2026-02-01
+publishedDate: 2026-02-13
 sources:
   - label: "Quadro Financeiro Plurianual da UE 2021-2027, Jornal Oficial"
     url: "https://commission.europa.eu/strategy-and-policy/eu-budget/long-term-eu-budget/2021-2027_en"

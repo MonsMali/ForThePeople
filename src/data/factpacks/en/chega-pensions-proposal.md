@@ -6,7 +6,7 @@ claim: "Andre Ventura stated that Chega's proposal to raise minimum pensions wou
 verdict: "true"
 verdictSummary: "Independent budget calculations confirm the financial impact would be around 4-5% of total Social Security spending, making the measure financially possible — though it would require political choices to cut elsewhere."
 tags: ["social-security", "chega", "budget"]
-publishedDate: 2026-02-14
+publishedDate: 2026-02-13
 sources:
   - label: "Budget Amendment Proposal OE 2025 (Chega Parliamentary Group)"
     url: "https://www.parlamento.pt/OrcamentoEstado/2025"

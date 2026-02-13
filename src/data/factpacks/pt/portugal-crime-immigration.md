@@ -6,7 +6,7 @@ claim: "A criminalidade em Portugal duplicou devido ao aumento da imigração"
 verdict: "false"
 verdictSummary: "A taxa de criminalidade global de Portugal diminuiu 12% entre 2019-2024 segundo dados do RASI, durante um período de crescimento significativo da imigração."
 tags: ["immigration", "portugal", "public-safety"]
-publishedDate: 2026-02-05
+publishedDate: 2026-02-13
 sources:
   - label: "RASI 2024 — Relatório Anual de Segurança Interna"
     url: "https://www.portugal.gov.pt"

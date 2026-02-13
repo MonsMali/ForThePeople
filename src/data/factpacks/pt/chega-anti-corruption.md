@@ -6,7 +6,7 @@ claim: "O Chega é o único partido limpo e anticorrupção que luta pelos portu
 verdict: "mixed"
 verdictSummary: "O Chega levantou preocupações legítimas sobre corrupção noutros partidos. Mas o seu próprio registo inclui questões de transparência no financiamento, escândalos disciplinares internos e membros expulsos — tornando a alegação de 'exclusivamente limpo' insustentável."
 tags: ["corruption", "portugal", "broken-promises", "rhetoric"]
-publishedDate: 2026-02-12
+publishedDate: 2026-02-13
 sources:
   - label: "ECFP — Entidade das Contas e Financiamentos Políticos, Relatórios de Financiamento 2023-2024"
     url: "https://www.tribunalconstitucional.pt/tc/contas-ecfp.html"

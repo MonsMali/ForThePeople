@@ -6,7 +6,7 @@ claim: "Foreigners represent 20-30% of the prison population and immigration is 
 verdict: "misleading"
 verdictSummary: "Official DGRSP data shows ~17% of prisoners are foreign nationals — not 20-30%. Overall crime has fallen while immigration increased. The numbers are cherry-picked to create a false impression."
 tags: ["immigration", "portugal", "public-safety", "rhetoric"]
-publishedDate: 2026-02-12
+publishedDate: 2026-02-13
 sources:
   - label: "DGRSP — Estatísticas Prisionais 2024, Direção-Geral de Reinserção e Serviços Prisionais"
     url: "https://dgrsp.justica.gov.pt/Estat%C3%ADsticas-e-indicadores"
