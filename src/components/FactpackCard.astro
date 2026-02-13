@@ -12,9 +12,10 @@ interface Props {
   tags: string[];
   publishedDate: Date;
   lang: Lang;
+  sourceCount?: number;
 }
 
-const { slug, title, summary, verdict, verdictSummary, tags, publishedDate, lang } = Astro.props;
+const { slug, title, summary, verdict, verdictSummary, tags, publishedDate, lang, sourceCount } = Astro.props;
 const t = useTranslations(lang);
 
 const verdictColorMap: Record<string, string> = {
@@ -46,8 +47,13 @@ const dateStr = publishedDate.toLocaleDateString(lang === 'pt' ? 'pt-PT' : 'en-U
           {t(`verdict.${verdict}` as any)}
         </span>
         <span class="text-xs font-sans text-muted">{dateStr}</span>
+        {sourceCount && (
+          <span class="text-xs font-sans text-muted">
+            {sourceCount} {lang === 'pt' ? 'fontes' : 'sources'}
+          </span>
+        )}
       </div>
-      <h3 class="text-lg font-sans font-bold text-ink mb-2 group-hover:text-blue-700 transition-colors leading-snug">
+      <h3 class="text-lg font-sans font-bold text-ink mb-2 group-hover:text-ink/70 transition-colors leading-snug">
         {title}
       </h3>
       <p class="text-sm text-muted leading-relaxed">

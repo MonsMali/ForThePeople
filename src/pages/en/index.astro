@@ -98,17 +98,37 @@ const allTags = [...new Set(factpacks.flatMap((fp) => fp.data.tags))].sort();
 
     <!-- Grid -->
     <div class="grid gap-4 md:grid-cols-2" id="factpack-grid">
-      {factpacks.map((fp) => (
-        <FactpackCard
-          slug={fp.id}
-          title={fp.data.title}
-          summary={fp.data.summary}
-          verdict={fp.data.verdict}
-          verdictSummary={fp.data.verdictSummary}
-          tags={fp.data.tags}
-          publishedDate={fp.data.publishedDate}
-          lang={lang}
-        />
+      {factpacks.map((fp, i) => (
+        <>
+          <FactpackCard
+            slug={fp.id}
+            title={fp.data.title}
+            summary={fp.data.summary}
+            verdict={fp.data.verdict}
+            verdictSummary={fp.data.verdictSummary}
+            tags={fp.data.tags}
+            publishedDate={fp.data.publishedDate}
+            sourceCount={fp.data.sources?.length}
+            lang={lang}
+          />
+          {i === 3 && (
+            <a
+              href="https://sourcecheckorg.substack.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="border border-border rounded-lg bg-ink text-white p-5 flex flex-col justify-center hover:bg-ink/90 transition-colors no-underline"
+            >
+              <p class="font-sans text-sm font-bold mb-2">Get the weekly digest</p>
+              <p class="font-sans text-xs text-white/60 leading-relaxed mb-3">
+                Every fact-check, summarized. No spam, no ideology.
+              </p>
+              <span class="inline-flex items-center gap-2 font-sans text-xs font-medium border border-white/30 px-3 py-1.5 rounded w-fit hover:bg-white/10 transition-colors">
+                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+                Subscribe free
+              </span>
+            </a>
+          )}
+        </>
       ))}
     </div>
 
