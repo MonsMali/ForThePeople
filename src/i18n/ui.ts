@@ -71,28 +71,28 @@ export const ui = {
     'footer.selfFunded': 'Self-funded. No political donations. No corporate sponsors.',
 
     // Misc
-    'language.switch': 'Portugu\u00eas',
+    'language.switch': 'Português',
     'draft.notice': 'This fact-pack is a draft and may be incomplete.',
   },
   pt: {
     // Site
     'site.title': 'ParaOPovo',
-    'site.description': 'Os pol\u00edticos mentem-lhe. Aqui est\u00e3o os documentos. Decida por si.',
-    'site.tagline': 'A Ferramenta de Verifica\u00e7\u00e3o Open-Source para Eleitores.',
+    'site.description': 'Os políticos mentem-lhe. Aqui estão os documentos. Decida por si.',
+    'site.tagline': 'A Ferramenta de Verificação Open-Source para Eleitores.',
 
     // Nav
-    'nav.home': 'In\u00edcio',
+    'nav.home': 'Início',
     'nav.about': 'Sobre',
     'nav.methodology': 'Metodologia',
     'nav.howItWorks': 'Como Funciona',
 
     // Homepage
-    'home.hero.title': 'Os pol\u00edticos fazem afirma\u00e7\u00f5es.',
-    'home.hero.subtitle': 'N\u00f3s encontramos as provas.',
-    'home.hero.description': 'Sem ideologia. Sem manipula\u00e7\u00e3o. Apenas documentos, votos e registos p\u00fablicos. Leia. Decida por si.',
-    'home.factpacks.title': 'Dossi\u00eas',
-    'home.search.placeholder': 'Pesquisar dossi\u00eas...',
-    'home.noResults': 'Nenhum dossi\u00ea corresponde \u00e0 sua pesquisa.',
+    'home.hero.title': 'Os políticos fazem afirmações.',
+    'home.hero.subtitle': 'Nós encontramos as provas.',
+    'home.hero.description': 'Sem ideologia. Sem manipulação. Apenas documentos, votos e registos públicos. Leia. Decida por si.',
+    'home.factpacks.title': 'Dossiês',
+    'home.search.placeholder': 'Pesquisar dossiês...',
+    'home.noResults': 'Nenhum dossiê corresponde à sua pesquisa.',
 
     // Verdicts
     'verdict.false': 'FALSO',
@@ -106,13 +106,13 @@ export const ui = {
     'factpack.evidence': 'O Que Os Documentos Mostram',
     'factpack.sources': 'Fontes e Documentos',
     'factpack.share': 'Partilhar',
-    'factpack.updated': '\u00daltima atualiza\u00e7\u00e3o',
+    'factpack.updated': 'Última atualização',
     'factpack.published': 'Publicado',
     'factpack.viewSource': 'Ver fonte',
     'factpack.viewDocument': 'Ver documento',
 
     // Share
-    'share.copyLink': 'Copiar Liga\u00e7\u00e3o',
+    'share.copyLink': 'Copiar Ligação',
     'share.copyImage': 'Copiar para WhatsApp',
     'share.copied': 'Copiado!',
     'share.whatsapp': 'WhatsApp',
@@ -121,32 +121,32 @@ export const ui = {
 
     // Tags
     'tag.broken-promises': 'Promessas Quebradas',
-    'tag.immigration': 'Imigra\u00e7\u00e3o',
-    'tag.corruption': 'Corrup\u00e7\u00e3o',
-    'tag.public-safety': 'Seguran\u00e7a P\u00fablica',
+    'tag.immigration': 'Imigração',
+    'tag.corruption': 'Corrupção',
+    'tag.public-safety': 'Segurança Pública',
     'tag.economy': 'Economia',
-    'tag.healthcare': 'Sa\u00fade',
-    'tag.education': 'Educa\u00e7\u00e3o',
-    'tag.justice': 'Justi\u00e7a',
+    'tag.healthcare': 'Saúde',
+    'tag.education': 'Educação',
+    'tag.justice': 'Justiça',
     'tag.portugal': 'Portugal',
     'tag.usa': 'EUA',
-    'tag.rhetoric': 'T\u00e1ticas Ret\u00f3ricas',
+    'tag.rhetoric': 'Táticas Retóricas',
     'tag.ps': 'PS',
     'tag.chega': 'Chega',
     'tag.transport': 'Transportes',
-    'tag.social-security': 'Seguran\u00e7a Social',
-    'tag.budget': 'Or\u00e7amento',
+    'tag.social-security': 'Segurança Social',
+    'tag.budget': 'Orçamento',
 
     // Footer
-    'footer.description': 'Verifica\u00e7\u00e3o c\u00edvica open-source. Sem ideologia, apenas documentos.',
-    'footer.license': 'Conte\u00fado baseado em factos e com fontes. Partilhe livremente.',
-    'footer.methodology': 'A nossa metodologia: mostrar a alega\u00e7\u00e3o, mostrar o documento, deixar decidir por si.',
-    'footer.viewCode': 'Ver C\u00f3digo no GitHub',
-    'footer.disclaimer': 'Sem afilia\u00e7\u00e3o ao FactCheck.org, SourceWatch, ou qualquer partido pol\u00edtico.',
-    'footer.selfFunded': 'Autofinanciado. Sem doa\u00e7\u00f5es pol\u00edticas. Sem patrocinadores empresariais.',
+    'footer.description': 'Verificação cívica open-source. Sem ideologia, apenas documentos.',
+    'footer.license': 'Conteúdo baseado em factos e com fontes. Partilhe livremente.',
+    'footer.methodology': 'A nossa metodologia: mostrar a alegação, mostrar o documento, deixar decidir por si.',
+    'footer.viewCode': 'Ver Código no GitHub',
+    'footer.disclaimer': 'Sem afiliação ao FactCheck.org, SourceWatch, ou qualquer partido político.',
+    'footer.selfFunded': 'Autofinanciado. Sem doações políticas. Sem patrocinadores empresariais.',
 
     // Misc
     'language.switch': 'English',
-    'draft.notice': 'Este dossi\u00ea \u00e9 um rascunho e pode estar incompleto.',
+    'draft.notice': 'Este dossiê é um rascunho e pode estar incompleto.',
   },
 } as const;
