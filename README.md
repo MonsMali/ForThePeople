@@ -150,7 +150,14 @@ We adhere to the [IFCN Code of Principles](https://ifcncodeofprinciples.poynter.
 
 MIT License. Content is fact-based and sourced. Share freely.
 
+## Newsletter
+
+Get a weekly digest of fact-checks every Monday. No spam, no ideology — just the documents that matter.
+
+- **English:** [Subscribe here](https://preview.mailerlite.io/forms/2118008/179572480664405751/share)
+- **Português:** [Subscrever aqui](https://preview.mailerlite.io/forms/2118008/179573576966341842/share)
+
 ## Contact
 
-- **Email:** hello@forthepeople.org
+- **Email:** contact@source-check.org
 - **Issues:** [github.com/MonsMali/ForThePeople/issues](https://github.com/MonsMali/ForThePeople/issues)

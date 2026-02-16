@@ -137,6 +137,39 @@ const claimReview = claim && verdict
 <meta name="twitter:description" content={description} />
 {ogImage && <meta name="twitter:image" content={ogImageUrl} />}
 
+<!-- Organization + WebSite JSON-LD -->
+{!claimReview && (
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': 'https://source-check.org/#organization',
+        name: 'Source Check',
+        url: 'https://source-check.org',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://source-check.org/favicon.png',
+        },
+        sameAs: ['https://github.com/MonsMali/ForThePeople'],
+        description: 'Open-source fact-checking project. Politicians make claims. We find the documents. You decide.',
+        founder: {
+          '@type': 'Person',
+          name: 'Luís Conceição',
+        },
+      },
+      {
+        '@type': 'WebSite',
+        '@id': 'https://source-check.org/#website',
+        url: 'https://source-check.org',
+        name: 'Source Check',
+        publisher: { '@id': 'https://source-check.org/#organization' },
+        inLanguage: ['en', 'pt'],
+      },
+    ],
+  })} />
+)}
+
 <!-- ClaimReview JSON-LD -->
 {claimReview && (
   <script type="application/ld+json" set:html={JSON.stringify(claimReview)} />

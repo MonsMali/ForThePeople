@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://source-check.org/sitemap-index.xml
