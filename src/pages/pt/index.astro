@@ -98,8 +98,7 @@ const allTags = [...new Set(factpacks.flatMap((fp) => fp.data.tags))].sort();
 
     <!-- Grid -->
     <div class="grid gap-4 md:grid-cols-2" id="factpack-grid">
-      {factpacks.map((fp, i) => (
-        <>
+      {factpacks.map((fp) => (
           <FactpackCard
             slug={fp.id}
             title={fp.data.title}
@@ -111,30 +110,31 @@ const allTags = [...new Set(factpacks.flatMap((fp) => fp.data.tags))].sort();
             sourceCount={fp.data.sources?.length}
             lang={lang}
           />
-          {i === 3 && (
-            <a
-              href="https://sourcecheckorg.substack.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="border border-border rounded-lg bg-ink text-white p-5 flex flex-col justify-center hover:bg-ink/90 transition-colors no-underline"
-            >
-              <p class="font-sans text-sm font-bold mb-2">Receba o resumo semanal</p>
-              <p class="font-sans text-xs text-white/60 leading-relaxed mb-3">
-                Cada verificação, resumida. Sem spam, sem ideologia.
-              </p>
-              <span class="inline-flex items-center gap-2 font-sans text-xs font-medium border border-white/30 px-3 py-1.5 rounded w-fit hover:bg-white/10 transition-colors">
-                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
-                Subscrever grátis
-              </span>
-            </a>
-          )}
-        </>
       ))}
     </div>
 
     <p id="no-results" class="hidden text-center text-muted font-sans py-8">
       {t('home.noResults')}
     </p>
+
+    <!-- Newsletter CTA (hidden when filtering) -->
+    <a
+      id="newsletter-grid-cta"
+      href="javascript:void(0)"
+      onclick="ml('show', 'pyD4px', true)"
+      class="mt-6 border border-border rounded-lg bg-ink text-white p-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 hover:bg-ink/90 transition-colors no-underline cursor-pointer"
+    >
+      <div>
+        <p class="font-sans text-sm font-bold mb-1">Receba o resumo semanal</p>
+        <p class="font-sans text-xs text-white/60 leading-relaxed">
+          Cada verificação, resumida. Sem spam, sem ideologia.
+        </p>
+      </div>
+      <span class="inline-flex items-center gap-2 font-sans text-xs font-medium border border-white/30 px-4 py-2 rounded w-fit hover:bg-white/10 transition-colors flex-shrink-0">
+        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+        Subscrever grátis
+      </span>
+    </a>
   </section>
 
   <!-- CTA / Methodology teaser -->
@@ -173,10 +173,9 @@ const allTags = [...new Set(factpacks.flatMap((fp) => fp.data.tags))].sort();
           Apoiar no Ko-fi
         </a>
         <a
-          href="https://sourcecheckorg.substack.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center gap-2 font-sans text-sm font-medium border border-white/30 text-white px-5 py-2.5 rounded hover:bg-white/10 transition-colors"
+          href="javascript:void(0)"
+          onclick="ml('show', 'pyD4px', true)"
+          class="inline-flex items-center gap-2 font-sans text-sm font-medium border border-white/30 text-white px-5 py-2.5 rounded hover:bg-white/10 transition-colors cursor-pointer"
         >
           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
           Subscrever newsletter
@@ -191,6 +190,7 @@ const allTags = [...new Set(factpacks.flatMap((fp) => fp.data.tags))].sort();
   const grid = document.getElementById('factpack-grid')!;
   const cards = grid.querySelectorAll<HTMLElement>('.factpack-card');
   const noResults = document.getElementById('no-results')!;
+  const newsletterCta = document.getElementById('newsletter-grid-cta');
   const tagButtons = document.querySelectorAll<HTMLButtonElement>('.tag-filter');
 
   let activeTag = '';
@@ -198,6 +198,7 @@ const allTags = [...new Set(factpacks.flatMap((fp) => fp.data.tags))].sort();
   function filterCards() {
     const query = searchInput.value.toLowerCase().trim();
     let visibleCount = 0;
+    const isFiltering = !!query || !!activeTag;
 
     cards.forEach((card) => {
       const title = card.dataset.title || '';
@@ -211,6 +212,7 @@ const allTags = [...new Set(factpacks.flatMap((fp) => fp.data.tags))].sort();
     });
 
     noResults.classList.toggle('hidden', visibleCount > 0);
+    if (newsletterCta) newsletterCta.style.display = isFiltering ? 'none' : '';
   }
 
   searchInput.addEventListener('input', filterCards);

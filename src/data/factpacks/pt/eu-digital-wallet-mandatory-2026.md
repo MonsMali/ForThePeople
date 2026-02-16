@@ -12,7 +12,7 @@ sources:
     url: "https://eur-lex.europa.eu/eli/reg/2024/1183/oj"
   - label: "Comissão Europeia - Perguntas Frequentes EUDI"
     url: "https://digital-strategy.ec.europa.eu/en/policies/eudi-regulation"
-draft: true
+draft: false
 ---
 
 ## O Que Estão a Dizer
