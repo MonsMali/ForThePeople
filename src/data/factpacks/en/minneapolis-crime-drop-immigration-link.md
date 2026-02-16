@@ -12,7 +12,7 @@ sources:
     url: "https://www.minneapolismn.gov/government/government-data/datasource/crime-dashboard/"
   - label: "Fox 9 - MPD Chief on 2025 Crime Stats"
     url: "https://www.fox9.com/news/mpd-chief-2025-crime-report-jan-2026"
-draft: true
+draft: false
 ---
 
 ## What They Are Saying

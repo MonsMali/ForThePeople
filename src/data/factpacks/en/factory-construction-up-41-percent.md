@@ -12,7 +12,7 @@ sources:
     url: "https://www.census.gov/construction/c30/data/index.html"
   - label: "FRED - Total Construction Spending: Manufacturing"
     url: "https://fred.stlouisfed.org/series/TLMFGCONS"
-draft: true
+draft: false
 ---
 
 ## What They Are Saying

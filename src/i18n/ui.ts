@@ -61,6 +61,13 @@ export const ui = {
     'tag.transport': 'Transport',
     'tag.social-security': 'Social Security',
     'tag.budget': 'Budget',
+    'tag.eu': 'EU',
+    'tag.technology': 'Technology',
+    'tag.privacy': 'Privacy',
+    'tag.politics': 'Politics',
+    'tag.energy': 'Energy',
+    'tag.us-politics': 'US Politics',
+    'tag.manufacturing': 'Manufacturing',
 
     // Footer
     'footer.description': 'Open-source civic verification. No ideology, just documents.',
@@ -71,6 +78,13 @@ export const ui = {
     'footer.selfFunded': 'Self-funded. No political donations. No corporate sponsors.',
     'footer.support': 'Support this project',
     'footer.newsletter': 'Subscribe to newsletter',
+
+    // Newsletter
+    'newsletter.title': 'Get the weekly digest',
+    'newsletter.description': 'Every fact-check, summarized. One email per week. No spam, no ideology — just the documents that matter.',
+    'newsletter.email': 'Your email',
+    'newsletter.subscribe': 'Subscribe',
+    'newsletter.privacy': 'No spam. Unsubscribe anytime.',
 
     // Misc
     'language.switch': 'Português',
@@ -138,6 +152,13 @@ export const ui = {
     'tag.transport': 'Transportes',
     'tag.social-security': 'Segurança Social',
     'tag.budget': 'Orçamento',
+    'tag.eu': 'UE',
+    'tag.technology': 'Tecnologia',
+    'tag.privacy': 'Privacidade',
+    'tag.politics': 'Política',
+    'tag.energy': 'Energia',
+    'tag.us-politics': 'Política EUA',
+    'tag.manufacturing': 'Indústria',
 
     // Footer
     'footer.description': 'Verificação cívica open-source. Sem ideologia, apenas documentos.',
@@ -148,6 +169,13 @@ export const ui = {
     'footer.selfFunded': 'Autofinanciado. Sem doações políticas. Sem patrocinadores empresariais.',
     'footer.support': 'Apoiar este projeto',
     'footer.newsletter': 'Subscrever newsletter',
+
+    // Newsletter
+    'newsletter.title': 'Receba o resumo semanal',
+    'newsletter.description': 'Cada verificação, resumida. Um email por semana. Sem spam, sem ideologia — apenas os documentos que importam.',
+    'newsletter.email': 'O seu email',
+    'newsletter.subscribe': 'Subscrever',
+    'newsletter.privacy': 'Sem spam. Cancele quando quiser.',
 
     // Misc
     'language.switch': 'English',

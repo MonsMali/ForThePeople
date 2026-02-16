@@ -12,7 +12,7 @@ sources:
     url: "https://www.census.gov/construction/c30/data/index.html"
   - label: "FRED - Despesa Total em Construção: Indústria Transformadora"
     url: "https://fred.stlouisfed.org/series/TLMFGCONS"
-draft: true
+draft: false
 ---
 
 ## O Que Estão a Dizer

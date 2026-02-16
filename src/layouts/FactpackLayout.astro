@@ -5,6 +5,7 @@ import BaseLayout from './BaseLayout.astro';
 import VerdictBanner from '../components/VerdictBanner.astro';
 import SourceList from '../components/SourceList.astro';
 import ShareButtons from '../components/ShareButtons.astro';
+import NewsletterCTA from '../components/NewsletterCTA.astro';
 import TagBadge from '../components/TagBadge.astro';
 
 interface Source {
@@ -125,5 +126,7 @@ const locale = lang === 'pt' ? 'pt-PT' : 'en-US';
       ogImageUrl={ogUrl}
       lang={lang}
     />
+
+    <NewsletterCTA lang={lang} />
   </article>
 </BaseLayout>
