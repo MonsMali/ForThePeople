@@ -9,13 +9,13 @@ tags: ["justice", "usa", "rhetoric"]
 publishedDate: 2026-02-13
 sources:
   - label: "Transcrição da Audiência do Comité Judiciário do Senado, 11 Fev 2026"
-    url: "https://www.judiciary.senate.gov/committee-activity/hearings"
+    url: "https://www.judiciary.senate.gov/imo/media/doc/2025-01-15_-_qfr_responses_-_bondi.pdf"
     evidenceImage: "/evidence/bondi-transcript-p45.png"
   - label: "Manual de Justiça do DOJ, Secção 9-27.220 — Diretrizes de Acusação"
     url: "https://www.justice.gov/jm/jm-9-27000-principles-federal-prosecution"
     evidenceImage: "/evidence/doj-section-9-27-220.png"
   - label: "Registos do Procurador do Estado da Flórida, caso Epstein 2006"
-    url: "https://www.floridabar.org"
+    url: "https://sa15.org/wp-content/uploads/epstein-files/JEFFREY_EPSTEIN_PART_01_REDACTED.pdf"
     evidenceImage: "/evidence/florida-epstein-2006.png"
 draft: false
 ---

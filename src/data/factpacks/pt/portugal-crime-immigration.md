@@ -9,10 +9,10 @@ tags: ["immigration", "portugal", "public-safety"]
 publishedDate: 2026-02-13
 sources:
   - label: "RASI 2024 — Relatório Anual de Segurança Interna"
-    url: "https://www.portugal.gov.pt"
+    url: "https://ssi.gov.pt/publicacoes/relatorio-anual-de-seguranca-interna/RASI%202024.pdf"
     evidenceImage: "/evidence/rasi-2024-overview.png"
-  - label: "Estatísticas SEF/AIMA — Residentes estrangeiros em Portugal 2024"
-    url: "https://www.sef.pt/pt/pages/conteudo-detalhe.aspx?nID=92"
+  - label: "AIMA — Relatório de Migrações e Asilo 2024"
+    url: "https://aima.gov.pt/media/pages/documents/fec4d6a712-1760603125/relatorio-migracoes-e-asilo-2024.pdf"
     evidenceImage: "/evidence/sef-residents-2024.png"
   - label: "PORDATA — Série Temporal de Criminalidade 2015-2024"
     url: "https://www.pordata.pt/portugal/crimes+registados+pelas+policias-3015"

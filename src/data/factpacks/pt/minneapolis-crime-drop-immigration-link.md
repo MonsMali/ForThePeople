@@ -9,9 +9,9 @@ tags: ["us-politics", "public-safety", "immigration"]
 publishedDate: 2026-02-16
 sources:
   - label: "Departamento de Polícia de Minneapolis - Relatório Anual 2025"
-    url: "https://www.minneapolismn.gov/government/government-data/datasource/crime-dashboard/"
-  - label: "Fox 9 - Chefe da Polícia sobre Estatísticas de 2025"
-    url: "https://www.fox9.com/news/mpd-chief-2025-crime-report-jan-2026"
+    url: "https://lims.minneapolismn.gov/download/Agenda/7679/5428/2ndSemiAnnualProgressReportOct24throughMarch2025.pdf"
+  - label: "Fox 9 - Chefe da Polícia sobre Estatísticas de 2025 (Vídeo)"
+    url: "https://www.youtube.com/watch?v=FjzI8xI5EXI"
 draft: false
 ---
 

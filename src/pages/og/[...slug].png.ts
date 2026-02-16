@@ -86,7 +86,7 @@ export const GET: APIRoute = async ({ props }) => {
 
   const color = verdictColors[verdict] || '#6b7280';
   const label = verdictLabels[lang]?.[verdict] || verdict.toUpperCase();
-  const siteName = lang === 'pt' ? 'ParaOPovo' : 'ForThePeople';
+  const siteName = 'ForThePeople';
 
   const svg = await satori(
     {

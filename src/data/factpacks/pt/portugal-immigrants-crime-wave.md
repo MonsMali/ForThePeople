@@ -12,10 +12,10 @@ sources:
     url: "https://dgrsp.justica.gov.pt/Estat%C3%ADsticas-e-indicadores"
     evidenceImage: "/evidence/dgrsp-prison-stats-2024.png"
   - label: "RASI 2024 — Criminalidade por Nacionalidade, Relatório de Segurança Interna"
-    url: "https://www.portugal.gov.pt"
+    url: "https://ssi.gov.pt/publicacoes/relatorio-anual-de-seguranca-interna/RASI%202024.pdf"
     evidenceImage: "/evidence/rasi-nationality-2024.png"
   - label: "Eurostat — Estatísticas de Criminalidade e Imigração, Comparativo UE 2024"
-    url: "https://ec.europa.eu/eurostat/web/crime"
+    url: "https://ec.europa.eu/eurostat/databrowser/product/page/crim_just_ctz"
     evidenceImage: "/evidence/eurostat-crime-immigration.png"
 draft: false
 ---

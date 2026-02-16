@@ -12,7 +12,7 @@ sources:
     url: "https://www.tribunalconstitucional.pt/tc/contas-ecfp.html"
     evidenceImage: "/evidence/ecfp-chega-funding.png"
   - label: "Assembleia da República — Registos Parlamentares, Processos Disciplinares do Chega"
-    url: "https://www.parlamento.pt"
+    url: "https://app.parlamento.pt/webutils/docs/doc.pdf?path=MWQAQ17mGRf5crsCOqs6mUVJwv5hvAxtFmuPceDkdM4MCInuRAyor%2BYg24ok76zX2gbBa6dhvIosTLNQqK0rVuCz5JpC2Mjhv%2Fors87WNuAHV4y0kUUNkTvPvjMxsnXJSh0x%2BAKQ26rdwJMWu7s%2BupyLI7%2BpzExiT524f4e08UmrSqane6gcq36iYJq8x%2BGsZpR9P6g7aPRui3DTabjtp4v%2BRXSYKCadn7qxrVluq7wOCI2XupOVM%2BL%2BJBL%2BTesdqkA7FFut7pTNxsk6I%2Bn8OrCCIWFGm6HNdw9zKDRfm3E%3D&fich=SUMULA_019.pdf&Inline=true"
     evidenceImage: "/evidence/ar-chega-disciplinary.png"
   - label: "Transparency International — Índice de Perceção da Corrupção 2024, Perfil de Portugal"
     url: "https://www.transparency.org/en/cpi/2024"

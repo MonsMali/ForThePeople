@@ -12,7 +12,7 @@ sources:
     url: "https://commission.europa.eu/strategy-and-policy/eu-budget/long-term-eu-budget/2021-2027_en"
     evidenceImage: "/evidence/eu-mff-2021-2027.png"
   - label: "Tribunal de Contas Europeu — Relatório Anual 2024"
-    url: "https://www.eca.europa.eu/en/publications"
+    url: "https://www.eca.europa.eu/ECAPublications/OP-2026-05/OP-2026-05_EN.pdf"
     evidenceImage: "/evidence/eca-annual-2024.png"
 draft: false
 ---

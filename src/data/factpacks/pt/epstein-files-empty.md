@@ -12,10 +12,10 @@ sources:
     url: "https://www.congress.gov/bill/118th-congress/senate-bill/4894"
     evidenceImage: "/evidence/epstein-transparency-act.png"
   - label: "Comité Judiciário da Câmara — Relatório de Produção Documental, Janeiro 2025"
-    url: "https://judiciary.house.gov"
+    url: "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/2025-11-19-jdj-to-doj-re-windom-referral.pdf"
     evidenceImage: "/evidence/judiciary-production-status.png"
   - label: "Inspetor-Geral do DOJ — Revisão da Classificação e Censura de Documentos"
-    url: "https://oig.justice.gov"
+    url: "https://oig.justice.gov/sites/default/files/reports/24-113.pdf"
     evidenceImage: "/evidence/doj-ig-redactions.png"
 draft: false
 ---

@@ -92,7 +92,7 @@ export const ui = {
   },
   pt: {
     // Site
-    'site.title': 'ParaOPovo',
+    'site.title': 'ForThePeople',
     'site.description': 'Os políticos mentem-lhe. Aqui estão os documentos. Decida por si.',
     'site.tagline': 'A Ferramenta de Verificação Open-Source para Eleitores.',
 

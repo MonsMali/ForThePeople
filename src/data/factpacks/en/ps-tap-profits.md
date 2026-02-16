@@ -9,7 +9,7 @@ tags: ["economy", "ps", "transport"]
 publishedDate: 2026-02-13
 sources:
   - label: "TAP Annual Report 2023 (Page 14 - Net Results)"
-    url: "https://www.tapairportugal.com/relatorios/2023"
+    url: "https://www.tapairportugal.com/en/about-us/investor-relations"
     evidenceImage: "/evidence/tap-relatorio-2023.png"
   - label: "TAP Restructuring Plan (European Commission)"
     url: "https://ec.europa.eu/competition/state_aid/cases1/202124/294474_2286289_186_2.pdf"

@@ -12,7 +12,7 @@ sources:
     url: "https://www.congress.gov/bill/111th-congress/house-bill/3590"
     evidenceImage: "/evidence/aca-section-1312.png"
   - label: "Relatório do Congressional Research Service R43194, Jan 2025"
-    url: "https://crsreports.congress.gov"
+    url: "https://sgp.fas.org/crs/misc/R43194.pdf"
     evidenceImage: "/evidence/crs-report-r43194.png"
 draft: false
 ---

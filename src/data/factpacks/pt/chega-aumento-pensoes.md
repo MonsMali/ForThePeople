@@ -9,10 +9,10 @@ tags: ["social-security", "chega", "budget"]
 publishedDate: 2026-02-13
 sources:
   - label: "Proposta de Alteração ao OE 2025 (Grupo Parlamentar Chega)"
-    url: "https://www.parlamento.pt/OrcamentoEstado/2025"
+    url: "https://www.parlamento.pt/OrcamentoEstado/Paginas/DetalhePropostaAlteracao.aspx?BID=23298"
     evidenceImage: "/evidence/proposta-chega-pensoes.png"
   - label: "Execução Orçamental da Segurança Social 2024"
-    url: "https://www.seg-social.pt/estatisticas"
+    url: "https://www.seg-social.pt/documents/10152/0/Execu%C3%A7%C3%A3o+Or%C3%A7amental+de+dezembro+de+2024/a3dd3c68-3113-47bf-ad70-8e44c"
     evidenceImage: "/evidence/execucao-ss-2024.png"
 draft: false
 ---

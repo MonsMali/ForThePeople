@@ -9,13 +9,13 @@ tags: ["immigration", "portugal", "economy", "rhetoric"]
 publishedDate: 2026-02-13
 sources:
   - label: "Eurostat — Foreign-Born Population as % of Total, EU Member States 2024"
-    url: "https://ec.europa.eu/eurostat/web/migration-asylum"
+    url: "https://ec.europa.eu/eurostat/databrowser/product/page/migr_pop1ctz"
     evidenceImage: "/evidence/eurostat-foreign-born-2024.png"
   - label: "INE — Contribuição da Imigração para Setores Económicos, Portugal 2024"
-    url: "https://www.ine.pt"
+    url: "https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_estudos&ESTUDOSest_boui=56512151&ESTUDOSmodo=2&xlang=pt"
     evidenceImage: "/evidence/ine-immigration-sectors.png"
   - label: "Banco de Portugal — Housing Market Analysis and Price Drivers 2024"
-    url: "https://www.bportugal.pt"
+    url: "https://www.bportugal.pt/system/files/documents/2024-10/RE202413_pt_0.pdf"
     evidenceImage: "/evidence/bdp-housing-2024.png"
 draft: false
 ---

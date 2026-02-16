@@ -1,4 +1,4 @@
-# ForThePeople / ParaOPovo
+# ForThePeople
 
 **The Open-Source Verification Toolkit for Voters.**
 
