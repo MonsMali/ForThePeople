@@ -20,8 +20,10 @@ const t = useTranslations(lang);
         {t('site.title')}
       </span>
     </a>
-    <div class="flex items-center gap-1 sm:gap-4">
-      <nav class="flex items-center gap-1 sm:gap-3">
+
+    <!-- Desktop nav -->
+    <div class="hidden sm:flex items-center gap-4">
+      <nav class="flex items-center gap-3">
         <a
           href={`/${lang}/`}
           class="font-sans text-sm text-muted hover:text-ink transition-colors px-2 py-1 rounded"
@@ -45,5 +47,61 @@ const t = useTranslations(lang);
         <LanguageSwitcher lang={lang} translationKey={translationKey} />
       </div>
     </div>
+
+    <!-- Mobile: lang switcher + hamburger -->
+    <div class="flex sm:hidden items-center gap-2">
+      <LanguageSwitcher lang={lang} translationKey={translationKey} />
+      <button
+        id="mobile-menu-btn"
+        class="p-2 rounded-md text-muted hover:text-ink hover:bg-paper-dark transition-colors"
+        aria-label="Open menu"
+        aria-expanded="false"
+      >
+        <svg class="w-5 h-5 menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <svg class="w-5 h-5 close-icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
   </div>
+
+  <!-- Mobile dropdown -->
+  <nav id="mobile-menu" class="hidden sm:hidden border-t border-border bg-white px-4 py-3">
+    <div class="flex flex-col gap-1">
+      <a
+        href={`/${lang}/`}
+        class="font-sans text-sm text-muted hover:text-ink transition-colors px-3 py-2.5 rounded-md hover:bg-paper-dark"
+      >
+        {t('nav.home')}
+      </a>
+      <a
+        href={`/${lang}/about/`}
+        class="font-sans text-sm text-muted hover:text-ink transition-colors px-3 py-2.5 rounded-md hover:bg-paper-dark"
+      >
+        {t('nav.about')}
+      </a>
+      <a
+        href={`/${lang}/about/#${lang === 'pt' ? 'metodologia' : 'methodology'}`}
+        class="font-sans text-sm text-muted hover:text-ink transition-colors px-3 py-2.5 rounded-md hover:bg-paper-dark"
+      >
+        {t('nav.methodology')}
+      </a>
+    </div>
+  </nav>
 </header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  const menuIcon = btn?.querySelector('.menu-icon');
+  const closeIcon = btn?.querySelector('.close-icon');
+
+  btn?.addEventListener('click', () => {
+    const isOpen = menu?.classList.toggle('hidden') === false;
+    btn.setAttribute('aria-expanded', String(isOpen));
+    menuIcon?.classList.toggle('hidden', isOpen);
+    closeIcon?.classList.toggle('hidden', !isOpen);
+  });
+</script>

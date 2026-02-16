@@ -115,24 +115,24 @@ const t = useTranslations(lang);
 
     <!-- Legenda de vereditos -->
     <div class="my-8 space-y-3">
-      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
-        <span class="flex-shrink-0 bg-verdict-false text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Falso</span>
+      <div class="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 w-fit bg-verdict-false text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Falso</span>
         <p class="font-sans text-sm text-ink/80">A afirmação é demonstravelmente falsa. Os documentos contradizem diretamente o que foi dito.</p>
       </div>
-      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
-        <span class="flex-shrink-0 bg-verdict-misleading text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Enganador</span>
+      <div class="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 w-fit bg-verdict-misleading text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Enganador</span>
         <p class="font-sans text-sm text-ink/80">A afirmação contém alguma verdade mas distorce o contexto, omite informação chave ou cria uma falsa impressão.</p>
       </div>
-      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
-        <span class="flex-shrink-0 bg-verdict-missing-context text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Falta Contexto</span>
+      <div class="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 w-fit bg-verdict-missing-context text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Falta Contexto</span>
         <p class="font-sans text-sm text-ink/80">A afirmação é tecnicamente verdadeira mas criticamente incompleta. Sem o contexto em falta, cria uma impressão errada.</p>
       </div>
-      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
-        <span class="flex-shrink-0 bg-verdict-mixed text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Misto</span>
+      <div class="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 w-fit bg-verdict-mixed text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Misto</span>
         <p class="font-sans text-sm text-ink/80">Partes da afirmação são verdadeiras e partes são falsas. A realidade é mais complicada do que o que foi dito.</p>
       </div>
-      <div class="flex items-start gap-3 p-4 rounded-lg border border-border bg-white">
-        <span class="flex-shrink-0 bg-verdict-true text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Confirmado</span>
+      <div class="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-3 p-4 rounded-lg border border-border bg-white">
+        <span class="flex-shrink-0 w-fit bg-verdict-true text-white font-sans text-xs font-bold uppercase tracking-wider px-3 py-1 rounded">Confirmado</span>
         <p class="font-sans text-sm text-ink/80">A afirmação é correta. Os documentos apoiam o que foi dito. Incluímos estes para credibilidade — nem tudo é mentira.</p>
       </div>
     </div>
