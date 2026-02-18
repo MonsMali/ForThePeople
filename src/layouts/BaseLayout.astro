@@ -45,6 +45,17 @@ const { lang, translationKey, ...seoProps } = Astro.props;
       n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
       (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
       ml('account', '2118008');
+
+      // Re-initialize MailerLite forms after Astro ViewTransitions navigation
+      document.addEventListener('astro:page-load', function() {
+        var embeds = document.querySelectorAll('.ml-embedded[data-form]');
+        for (var i = 0; i < embeds.length; i++) {
+          if (embeds[i].children.length === 0) {
+            ml('account', '2118008');
+            break;
+          }
+        }
+      });
     </script>
   </head>
   <body class="min-h-screen flex flex-col">
