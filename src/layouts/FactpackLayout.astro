@@ -5,6 +5,7 @@ import BaseLayout from './BaseLayout.astro';
 import VerdictBanner from '../components/VerdictBanner.astro';
 import SourceList from '../components/SourceList.astro';
 import ShareButtons from '../components/ShareButtons.astro';
+import RelatedFactpacks from '../components/RelatedFactpacks.astro';
 import NewsletterCTA from '../components/NewsletterCTA.astro';
 import TagBadge from '../components/TagBadge.astro';
 
@@ -92,7 +93,7 @@ const locale = lang === 'pt' ? 'pt-PT' : 'en-US';
       </div>
       <div class="flex flex-wrap gap-1.5">
         {tags.map((tag) => (
-          <TagBadge tag={tag} lang={lang} />
+          <TagBadge tag={tag} lang={lang} linked />
         ))}
       </div>
     </header>
@@ -124,6 +125,12 @@ const locale = lang === 'pt' ? 'pt-PT' : 'en-US';
       url={pageUrl}
       title={title}
       ogImageUrl={ogUrl}
+      lang={lang}
+    />
+
+    <RelatedFactpacks
+      tags={tags}
+      translationKey={translationKey}
       lang={lang}
     />
 

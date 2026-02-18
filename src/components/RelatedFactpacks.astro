@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import type { Lang } from '../i18n/languages';
+import { useTranslations } from '../i18n/utils';
+import TagBadge from './TagBadge.astro';
+
+interface Props {
+  tags: string[];
+  translationKey: string;
+  lang: Lang;
+}
+
+const { tags, translationKey, lang } = Astro.props;
+const t = useTranslations(lang);
+
+const collectionName = lang === 'pt' ? 'factpacks_pt' : 'factpacks_en';
+const allFactpacks = await getCollection(collectionName, ({ data }) => !data.draft);
+
+const scored = allFactpacks
+  .filter((fp) => fp.data.translationKey !== translationKey)
+  .map((fp) => ({
+    fp,
+    score: fp.data.tags.filter((tag) => tags.includes(tag)).length,
+  }))
+  .filter(({ score }) => score > 0)
+  .sort((a, b) => b.score - a.score || b.fp.data.publishedDate.getTime() - a.fp.data.publishedDate.getTime())
+  .slice(0, 3);
+
+const verdictColorMap: Record<string, string> = {
+  false: 'bg-verdict-false',
+  misleading: 'bg-verdict-misleading',
+  'missing-context': 'bg-verdict-missing-context',
+  mixed: 'bg-verdict-mixed',
+  true: 'bg-verdict-true',
+};
+
+const locale = lang === 'pt' ? 'pt-PT' : 'en-US';
+const dateOpts: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
+---
+
+{scored.length > 0 && (
+  <section class="mt-12 pt-8 border-t border-border">
+    <h2 class="text-xl font-sans font-bold text-ink mb-5">{t('related.title')}</h2>
+    <div class="grid gap-3 sm:grid-cols-3">
+      {scored.map(({ fp }) => (
+        <a
+          href={`/${lang}/facts/${fp.id}/`}
+          class="block p-4 rounded-lg border border-border bg-white hover:shadow-md hover:border-border/80 transition-all no-underline"
+        >
+          <div class="flex items-center gap-2 mb-2">
+            <span class={`${verdictColorMap[fp.data.verdict] || 'bg-muted'} text-white font-sans text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded`}>
+              {t(`verdict.${fp.data.verdict}` as any)}
+            </span>
+            <span class="text-xs font-sans text-muted">
+              {fp.data.publishedDate.toLocaleDateString(locale, dateOpts)}
+            </span>
+          </div>
+          <h3 class="text-sm font-sans font-bold text-ink leading-snug">
+            {fp.data.title}
+          </h3>
+        </a>
+      ))}
+    </div>
+  </section>
+)}

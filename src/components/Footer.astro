@@ -25,6 +25,13 @@ const year = new Date().getFullYear();
           <a href={`/${lang}/`} class="font-sans text-sm hover:text-white transition-colors">{t('nav.home')}</a>
           <a href={`/${lang}/about/`} class="font-sans text-sm hover:text-white transition-colors">{t('nav.about')}</a>
           <a href={`/${lang}/about/#${lang === 'pt' ? 'metodologia' : 'methodology'}`} class="font-sans text-sm hover:text-white transition-colors">{t('nav.methodology')}</a>
+          <a href={`/${lang}/corrections/`} class="font-sans text-sm hover:text-white transition-colors">{t('footer.corrections')}</a>
+          <a
+            href={`mailto:contact@source-check.org?subject=${lang === 'pt' ? 'Alega%C3%A7%C3%A3o%20para%20verificar' : 'Claim%20to%20check'}`}
+            class="font-sans text-sm hover:text-white transition-colors"
+          >
+            {t('footer.submitClaim')}
+          </a>
         </nav>
       </div>
       <div class="max-w-xs flex flex-col gap-3">

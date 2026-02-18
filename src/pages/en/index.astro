@@ -195,6 +195,16 @@ const allTags = [...new Set(factpacks.flatMap((fp) => fp.data.tags))].sort();
 
   let activeTag = '';
 
+  function updateUrl() {
+    const url = new URL(window.location.href);
+    if (activeTag) url.searchParams.set('tag', activeTag);
+    else url.searchParams.delete('tag');
+    const q = searchInput.value.trim();
+    if (q) url.searchParams.set('q', q);
+    else url.searchParams.delete('q');
+    history.replaceState(null, '', url);
+  }
+
   function filterCards() {
     const query = searchInput.value.toLowerCase().trim();
     let visibleCount = 0;
@@ -213,6 +223,7 @@ const allTags = [...new Set(factpacks.flatMap((fp) => fp.data.tags))].sort();
 
     noResults.classList.toggle('hidden', visibleCount > 0);
     if (newsletterCta) newsletterCta.style.display = isFiltering ? 'none' : '';
+    updateUrl();
   }
 
   searchInput.addEventListener('input', filterCards);
@@ -231,4 +242,21 @@ const allTags = [...new Set(factpacks.flatMap((fp) => fp.data.tags))].sort();
       filterCards();
     });
   });
+
+  // Restore state from URL on page load
+  const params = new URLSearchParams(window.location.search);
+  const urlTag = params.get('tag');
+  const urlQuery = params.get('q');
+  if (urlTag) {
+    activeTag = urlTag;
+    tagButtons.forEach((btn) => {
+      if (btn.dataset.tag === urlTag) btn.setAttribute('data-active', '');
+    });
+  }
+  if (urlQuery) {
+    searchInput.value = urlQuery;
+  }
+  if (urlTag || urlQuery) {
+    filterCards();
+  }
 </script>

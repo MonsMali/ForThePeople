@@ -69,7 +69,27 @@ export const ui = {
     'tag.us-politics': 'US Politics',
     'tag.manufacturing': 'Manufacturing',
 
+    // Tags
+    'tags.title': 'Topics',
+    'tags.factpacksTagged': 'Fact-packs tagged',
+
+    // Corrections
+    'corrections.title': 'Corrections & Updates',
+    'corrections.description': 'A public log of all corrections and updates made to our fact-packs.',
+    'corrections.empty': 'No corrections have been issued yet. When we update a fact-pack, the change will appear here.',
+    'corrections.originalDate': 'Published',
+    'corrections.updateDate': 'Updated',
+
+    // Submit a claim
+    'submit.title': 'Submit a Claim to Check',
+    'submit.description': 'Have a claim you want us to verify? Send us the claim, the source where you saw it, and any context. We will review it and may publish a fact-pack.',
+    'footer.submitClaim': 'Submit a claim',
+
+    // Related
+    'related.title': 'You might also check...',
+
     // Footer
+    'footer.corrections': 'Corrections & Updates',
     'footer.description': 'Open-source civic verification. No ideology, just documents.',
     'footer.license': 'Content is fact-based and sourced. Share freely.',
     'footer.methodology': 'Our methodology: show the claim, show the document, let you decide.',
@@ -160,7 +180,27 @@ export const ui = {
     'tag.us-politics': 'Política EUA',
     'tag.manufacturing': 'Indústria',
 
+    // Tags
+    'tags.title': 'Temas',
+    'tags.factpacksTagged': 'Dossiês com a etiqueta',
+
+    // Corrections
+    'corrections.title': 'Correções e Atualizações',
+    'corrections.description': 'Um registo público de todas as correções e atualizações feitas aos nossos dossiês.',
+    'corrections.empty': 'Ainda não foram emitidas correções. Quando atualizarmos um dossiê, a alteração aparecerá aqui.',
+    'corrections.originalDate': 'Publicado',
+    'corrections.updateDate': 'Atualizado',
+
+    // Submit a claim
+    'submit.title': 'Submeter uma Alegação para Verificação',
+    'submit.description': 'Tem uma alegação que quer que verifiquemos? Envie-nos a alegação, a fonte onde a viu e qualquer contexto. Iremos analisá-la e poderemos publicar um dossiê.',
+    'footer.submitClaim': 'Submeter alegação',
+
+    // Related
+    'related.title': 'Também pode verificar...',
+
     // Footer
+    'footer.corrections': 'Correções e Atualizações',
     'footer.description': 'Verificação cívica open-source. Sem ideologia, apenas documentos.',
     'footer.license': 'Conteúdo baseado em factos e com fontes. Partilhe livremente.',
     'footer.methodology': 'A nossa metodologia: mostrar a alegação, mostrar o documento, deixar decidir por si.',

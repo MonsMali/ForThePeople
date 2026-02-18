@@ -1,0 +1,64 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { useTranslations } from '../../i18n/utils';
+import type { Lang } from '../../i18n/languages';
+
+const lang: Lang = 'pt';
+const t = useTranslations(lang);
+
+const allFactpacks = await getCollection('factpacks_pt', ({ data }) => !data.draft);
+const corrections = allFactpacks
+  .filter((fp) => fp.data.lastUpdated)
+  .sort((a, b) => b.data.lastUpdated!.getTime() - a.data.lastUpdated!.getTime());
+
+const dateOpts: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+---
+
+<BaseLayout
+  title={`${t('corrections.title')} | ${t('site.title')}`}
+  description={t('corrections.description')}
+  lang={lang}
+  translationKey="corrections"
+>
+  <article class="max-w-3xl mx-auto px-4 py-12">
+    <h1 class="text-3xl md:text-4xl font-sans font-bold text-ink leading-tight mb-2">
+      {t('corrections.title')}
+    </h1>
+    <p class="text-lg text-muted font-sans mb-10">
+      {t('corrections.description')}
+    </p>
+
+    {corrections.length === 0 ? (
+      <div class="p-6 rounded-lg border border-border bg-paper-dark text-center">
+        <p class="font-sans text-sm text-muted">{t('corrections.empty')}</p>
+      </div>
+    ) : (
+      <div class="space-y-6">
+        {corrections.map((fp) => (
+          <div class="p-5 rounded-lg border border-border bg-white">
+            <div class="flex flex-wrap items-center gap-3 text-sm font-sans text-muted mb-2">
+              <span>
+                {t('corrections.updateDate')}: {fp.data.lastUpdated!.toLocaleDateString('pt-PT', dateOpts)}
+              </span>
+              <span>&middot;</span>
+              <span>
+                {t('corrections.originalDate')}: {fp.data.publishedDate.toLocaleDateString('pt-PT', dateOpts)}
+              </span>
+            </div>
+            <h2 class="text-lg font-sans font-bold text-ink mb-2">
+              <a href={`/${lang}/facts/${fp.id}/`} class="hover:text-ink/70 transition-colors underline">
+                {fp.data.title}
+              </a>
+            </h2>
+            {fp.data.revisionNote && (
+              <p class="font-sans text-sm text-ink/80 leading-relaxed">
+                {fp.data.revisionNote}
+              </p>
+            )}
+          </div>
+        ))}
+      </div>
+    )}
+  </article>
+</BaseLayout>
