@@ -5,7 +5,7 @@ summary: "Falso. O Supremo Tribunal dos EUA decidiu em 2007 que os gases de efei
 claim: "A EPA não tem autoridade legal nos termos da Lei do Ar Limpo para regular gases de efeito estufa."
 verdict: "false"
 verdictSummary: "O Supremo Tribunal dos EUA decidiu, por 5-4 em Massachusetts v. EPA (2007), que os gases de efeito estufa são poluentes atmosféricos segundo a Lei do Ar Limpo e que a EPA tem autoridade para os regular. Trata-se de jurisprudência consolidada, reafirmada em decisões judiciais posteriores."
-tags: ["alteracoes-climaticas", "epa", "estados-unidos", "juridico"]
+tags: ["climate-change", "epa", "us-politics", "judiciary"]
 publishedDate: 2026-02-19
 sources:
   - label: "Massachusetts v. EPA, 549 U.S. 497 (2007) — Decisão do Supremo Tribunal"

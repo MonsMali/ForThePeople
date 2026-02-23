@@ -1,0 +1,541 @@
+{
+    "name": "ForThePeople - PT Newsletter",
+    "flow": [
+        {
+            "id": 2,
+            "module": "rss:TriggerNewArticle",
+            "version": 4,
+            "parameters": {
+                "url": "https://source-check.org/pt/rss.xml",
+                "gzip": true,
+                "include": [],
+                "password": "",
+                "username": "",
+                "maxResults": 10
+            },
+            "mapper": {},
+            "metadata": {
+                "designer": {
+                    "x": 0,
+                    "y": 0
+                },
+                "restore": {},
+                "parameters": [
+                    {
+                        "name": "url",
+                        "type": "url",
+                        "label": "URL",
+                        "required": true
+                    },
+                    {
+                        "name": "maxResults",
+                        "type": "number",
+                        "label": "Maximum number of returned items",
+                        "required": true
+                    },
+                    {
+                        "name": "username",
+                        "type": "text",
+                        "label": "User name"
+                    },
+                    {
+                        "name": "password",
+                        "type": "text",
+                        "label": "Password"
+                    },
+                    {
+                        "name": "include",
+                        "type": "select",
+                        "label": "Process RSS fields",
+                        "multiple": true,
+                        "validate": {
+                            "enum": [
+                                "google-merchant-center",
+                                "itunes"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "gzip",
+                        "type": "boolean",
+                        "label": "Request compressed content",
+                        "required": true
+                    }
+                ],
+                "interface": [
+                    {
+                        "name": "title",
+                        "type": "text",
+                        "label": "Title"
+                    },
+                    {
+                        "name": "description",
+                        "type": "text",
+                        "label": "Description"
+                    },
+                    {
+                        "name": "summary",
+                        "type": "text",
+                        "label": "Summary"
+                    },
+                    {
+                        "name": "author",
+                        "type": "text",
+                        "label": "Author"
+                    },
+                    {
+                        "name": "url",
+                        "type": "url",
+                        "label": "URL"
+                    },
+                    {
+                        "name": "dateUpdated",
+                        "type": "date",
+                        "label": "Date updated"
+                    },
+                    {
+                        "name": "dateCreated",
+                        "type": "date",
+                        "label": "Date created"
+                    },
+                    {
+                        "name": "comments",
+                        "type": "url",
+                        "label": "Comments"
+                    },
+                    {
+                        "name": "image",
+                        "spec": [
+                            {
+                                "name": "title",
+                                "type": "text",
+                                "label": "Name"
+                            },
+                            {
+                                "name": "url",
+                                "type": "url",
+                                "label": "URL"
+                            }
+                        ],
+                        "type": "collection",
+                        "label": "Image"
+                    },
+                    {
+                        "name": "categories",
+                        "spec": {
+                            "type": "text"
+                        },
+                        "type": "array",
+                        "label": "Categories"
+                    },
+                    {
+                        "name": "source",
+                        "spec": [
+                            {
+                                "name": "title",
+                                "type": "text",
+                                "label": "Name"
+                            },
+                            {
+                                "name": "url",
+                                "type": "url",
+                                "label": "URL"
+                            }
+                        ],
+                        "type": "collection",
+                        "label": "Source"
+                    },
+                    {
+                        "name": "enclosures",
+                        "spec": [
+                            {
+                                "name": "url",
+                                "type": "url",
+                                "label": "URL"
+                            },
+                            {
+                                "name": "type",
+                                "type": "text",
+                                "label": "Type"
+                            },
+                            {
+                                "name": "length",
+                                "type": "number",
+                                "label": "Length"
+                            }
+                        ],
+                        "type": "array",
+                        "label": "Enclosures"
+                    },
+                    {
+                        "help": "Other RSS fields. All values are in text format.",
+                        "name": "rssFields",
+                        "spec": [
+                            {
+                                "name": "title",
+                                "type": "text",
+                                "label": "title"
+                            },
+                            {
+                                "name": "link",
+                                "type": "text",
+                                "label": "link"
+                            },
+                            {
+                                "name": "guid",
+                                "type": "text",
+                                "label": "guid"
+                            },
+                            {
+                                "name": "description",
+                                "type": "text",
+                                "label": "description"
+                            },
+                            {
+                                "name": "pubdate",
+                                "type": "text",
+                                "label": "pubdate"
+                            }
+                        ],
+                        "type": "collection",
+                        "label": "RSS fields"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "module": "util:TextAggregator",
+            "version": 1,
+            "parameters": {
+                "feeder": 2,
+                "rowSeparator": ""
+            },
+            "mapper": {
+                "value": "<tr>\n  <td style=\"padding: 20px 0; border-bottom: 1px solid #e5e5e5;\">\n    <h3 style=\"font-family: Georgia, serif; font-size: 18px; color: #1a1a1a; margin: 0 0 8px 0;\">\n      {{2.title}}\n    </h3>\n    <p style=\"font-family: -apple-system, sans-serif; font-size: 14px; color: #666; margin: 0 0 12px 0; line-height: 1.5;\">\n      {{2.description}}\n    </p>\n    <a href=\"{{2.url}}\" style=\"font-family: -apple-system, sans-serif; font-size: 13px; color: #1a1a1a; font-weight: 600; text-decoration: none; border-bottom: 2px solid #facc15;\">\n      Ler a verificação completa →\n    </a>\n  </td>\n</tr>"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 300,
+                    "y": 0
+                },
+                "restore": {
+                    "extra": {
+                        "feeder": {
+                            "label": "RSS - Watch RSS feed items [2]"
+                        }
+                    },
+                    "parameters": {
+                        "rowSeparator": {
+                            "label": "Empty"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "rowSeparator",
+                        "type": "select",
+                        "label": "Row separator",
+                        "validate": {
+                            "enum": [
+                                "\n",
+                                "\t",
+                                "other"
+                            ]
+                        }
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "value",
+                        "type": "text",
+                        "label": "Text"
+                    }
+                ],
+                "advanced": true
+            }
+        },
+        {
+            "id": 6,
+            "module": "mailerlite2:createACampaign",
+            "version": 1,
+            "parameters": {
+                "__IMTCONN__": 5284301
+            },
+            "mapper": {
+                "name": "Weekly Digest PT - {{formatDate(now; \"YYYY-MM-DD\")}}",
+                "type": "regular",
+                "emails": {
+                    "from": "newsletter@source-check.org",
+                    "content": "<!DOCTYPE html>\n<html lang=\"pt\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Source Check - Resumo Semanal</title>\n</head>\n<body style=\"margin: 0; padding: 0; background-color: #f5f3ef; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;\">\n  <div style=\"max-width: 600px; margin: 0 auto; background: #ffffff;\">\n\n    <!-- Header -->\n    <div style=\"background-color: #1a1a1a; padding: 32px 24px; text-align: center;\">\n      <h1 style=\"font-family: Georgia, serif; font-size: 24px; color: #ffffff; margin: 0;\">\n        Source Check\n      </h1>\n      <p style=\"font-size: 13px; color: rgba(255,255,255,0.6); margin: 8px 0 0 0;\">\n        Resumo Semanal de Verificações\n      </p>\n    </div>\n\n    <!-- Intro -->\n    <div style=\"padding: 24px;\">\n      <p style=\"font-size: 14px; color: #666; line-height: 1.6; margin: 0 0 8px 0;\">\n        Aqui estão as verificações desta semana. Cada afirmação é verificada contra documentos primários — registos oficiais, decisões judiciais e dados governamentais.\n      </p>\n      <p style=\"font-size: 12px; color: #999; margin: 0;\">\n        Todas as fontes estão linkadas. Nunca precisa de confiar na nossa palavra.\n      </p>\n    </div>\n\n    <!-- Fact-checks -->\n    <div style=\"padding: 0 24px;\">\n      <table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse;\">\n        {{4.text}}\n      </table>\n    </div>\n\n    <!-- CTA -->\n    <div style=\"padding: 32px 24px; text-align: center;\">\n      <a href=\"https://source-check.org/pt/\" style=\"display: inline-block; background-color: #1a1a1a; color: #ffffff; font-size: 14px; font-weight: 600; text-decoration: none; padding: 12px 32px; border-radius: 6px;\">\n        Ver todas as verificações\n      </a>\n    </div>\n\n    <!-- Footer -->\n    <div style=\"background-color: #1a1a1a; padding: 24px; text-align: center;\">\n      <p style=\"font-size: 12px; color: rgba(255,255,255,0.5); margin: 0 0 8px 0;\">\n        Source Check — Encontramos os documentos, você decide.\n      </p>\n      <p style=\"font-size: 11px; color: rgba(255,255,255,0.3); margin: 0 0 12px 0;\">\n        Sem doadores políticos. Sem patrocinadores corporativos. Apenas documentos e factos.\n      </p>\n      <a href=\"https://ko-fi.com/sourcecheck\" style=\"font-size: 11px; color: #facc15; text-decoration: none;\">\n        Apoiar este projeto\n      </a>\n      <span style=\"color: rgba(255,255,255,0.2); margin: 0 8px;\">|</span>\n      <a href=\"{$unsubscribe}\" style=\"font-size: 11px; color: rgba(255,255,255,0.5); text-decoration: none;\">\n        Cancelar subscrição\n      </a>\n    </div>\n\n  </div>\n</body>\n</html>",
+                    "subject": "Verificações da Semana | ForThePeople",
+                    "from_name": "ForThePeople"
+                },
+                "groups": [
+                    "179570993812997536"
+                ],
+                "language_id": "18"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 600,
+                    "y": 0
+                },
+                "restore": {
+                    "expect": {
+                        "type": {
+                            "label": "Regular"
+                        },
+                        "groups": {
+                            "mode": "chose",
+                            "label": [
+                                "Portuguese Subscribers"
+                            ]
+                        },
+                        "segments": {
+                            "mode": "chose"
+                        },
+                        "language_id": {
+                            "mode": "chose",
+                            "label": "Português"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "mailerlite2"
+                            },
+                            "label": "MailerLite connection"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:mailerlite2",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "name",
+                        "type": "text",
+                        "label": "Campaign Name",
+                        "required": true
+                    },
+                    {
+                        "name": "emails",
+                        "spec": [
+                            {
+                                "name": "subject",
+                                "type": "text",
+                                "label": "Subject",
+                                "required": true,
+                                "validate": {
+                                    "max": 255
+                                }
+                            },
+                            {
+                                "name": "from",
+                                "type": "email",
+                                "label": "From Email",
+                                "required": true
+                            },
+                            {
+                                "name": "from_name",
+                                "type": "text",
+                                "label": "Sender Name",
+                                "required": true,
+                                "validate": {
+                                    "max": 255
+                                }
+                            },
+                            {
+                                "name": "content",
+                                "type": "text",
+                                "label": "Content"
+                            }
+                        ],
+                        "type": "collection",
+                        "label": "Email Setting",
+                        "required": true
+                    },
+                    {
+                        "name": "type",
+                        "type": "select",
+                        "label": "Type of campaign",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "regular",
+                                "ab",
+                                "resend"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "segments",
+                        "type": "select",
+                        "label": "Segment IDs",
+                        "multiple": true
+                    },
+                    {
+                        "name": "groups",
+                        "type": "select",
+                        "label": "Group IDs",
+                        "multiple": true
+                    },
+                    {
+                        "name": "language_id",
+                        "type": "select",
+                        "label": "Language ID"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "module": "mailerlite2:makeAPICall",
+            "version": 1,
+            "parameters": {
+                "__IMTCONN__": 5284301
+            },
+            "mapper": {
+                "url": "/campaigns/{{6.id}}/schedule",
+                "body": "{\n  \"delivery\": \"instant\"\n}",
+                "method": "POST",
+                "headers": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ]
+            },
+            "metadata": {
+                "designer": {
+                    "x": 900,
+                    "y": 0
+                },
+                "restore": {
+                    "expect": {
+                        "qs": {
+                            "mode": "chose"
+                        },
+                        "method": {
+                            "mode": "chose",
+                            "label": "POST"
+                        },
+                        "headers": {
+                            "mode": "chose",
+                            "items": [
+                                null
+                            ]
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "mailerlite2"
+                            },
+                            "label": "MailerLite connection"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:mailerlite2",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "url",
+                        "type": "text",
+                        "label": "URL",
+                        "required": true
+                    },
+                    {
+                        "name": "method",
+                        "type": "select",
+                        "label": "Method",
+                        "required": true,
+                        "validate": {
+                            "enum": [
+                                "GET",
+                                "POST",
+                                "PUT",
+                                "PATCH",
+                                "DELETE"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "headers",
+                        "spec": [
+                            {
+                                "name": "key",
+                                "type": "text",
+                                "label": "Key"
+                            },
+                            {
+                                "name": "value",
+                                "type": "text",
+                                "label": "Value"
+                            }
+                        ],
+                        "type": "array",
+                        "label": "Headers"
+                    },
+                    {
+                        "name": "qs",
+                        "spec": [
+                            {
+                                "name": "key",
+                                "type": "text",
+                                "label": "Key"
+                            },
+                            {
+                                "name": "value",
+                                "type": "text",
+                                "label": "Value"
+                            }
+                        ],
+                        "type": "array",
+                        "label": "Query String"
+                    },
+                    {
+                        "name": "body",
+                        "type": "any",
+                        "label": "Body"
+                    }
+                ]
+            }
+        }
+    ],
+    "metadata": {
+        "instant": false,
+        "version": 1,
+        "scenario": {
+            "roundtrips": 1,
+            "maxErrors": 3,
+            "autoCommit": true,
+            "autoCommitTriggerLast": true,
+            "sequential": false,
+            "slots": null,
+            "confidential": false,
+            "dataloss": false,
+            "dlq": false,
+            "freshVariables": false
+        },
+        "designer": {
+            "orphans": []
+        },
+        "zone": "eu1.make.com",
+        "notes": []
+    }
+}
